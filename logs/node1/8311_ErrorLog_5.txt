@@ -1,0 +1,112 @@
+2020-04-26 16:45:47.613 Notice: XDMP-URI: cts.doc("") -- Invalid URI format: ""
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/builtins/steps/mapping/entity-services/lib.sjs, at 344:16, in getCanonicalInstance() [javascript]
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/builtins/steps/mapping/entity-services/lib.sjs, at 326:17, in Object.keys.forEach.propertyName() [javascript]
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/builtins/steps/mapping/entity-services/lib.sjs, at 309:34, in runMapping() [javascript]
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/builtins/steps/mapping/entity-services/lib.sjs, at 230:9, in validateAndRunMapping() [javascript]
+2020-04-26 16:45:47.613 Notice:+in /marklogic.rest.resource/mlMappingValidator/assets/resource.sjs, at 22:22, in post() [javascript]
+2020-04-26 16:45:47.613 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-26 16:45:47.613 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-26 16:45:47.613 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 919:44,
+2020-04-26 16:45:47.613 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy")(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}) [javascript]
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 919:44,
+2020-04-26 16:45:47.613 Notice:+in extut:call-service("ml:mappingValidator", "POST", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy"), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}) [1.0-ml]
+2020-04-26 16:45:47.613 Notice:+  $extension-name = "ml:mappingValidator"
+2020-04-26 16:45:47.613 Notice:+  $method = "POST"
+2020-04-26 16:45:47.613 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy")
+2020-04-26 16:45:47.613 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:47.613 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:47.613 Notice:+  $input = document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 872:20,
+2020-04-26 16:45:47.613 Notice:+in function() as item()*() [1.0-ml]
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy,
+2020-04-26 16:45:47.613 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 870:12,
+2020-04-26 16:45:47.613 Notice:+in extut:invoke-service("ml:mappingValidator", "POST", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy"), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}, fn:false()) [1.0-ml]
+2020-04-26 16:45:47.613 Notice:+  $extension-name = "ml:mappingValidator"
+2020-04-26 16:45:47.613 Notice:+  $method = "POST"
+2020-04-26 16:45:47.613 Notice:+  $default-txn-mode = "query"
+2020-04-26 16:45:47.613 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy")
+2020-04-26 16:45:47.613 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:47.613 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:47.613 Notice:+  $input = document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}
+2020-04-26 16:45:47.613 Notice:+  $in-txn = fn:false()
+2020-04-26 16:45:47.613 Notice:+  $txn-curr = "query"
+2020-04-26 16:45:47.613 Notice:+  $txn-mode = "query"
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/rest-api/models/resource-model-query.xqy, at 270:20,
+2020-04-26 16:45:47.613 Notice:+in rsrcmodqry:resource-post("ml:mappingValidator", map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}, fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-26 16:45:47.613 Notice:+  $resource-name = "ml:mappingValidator"
+2020-04-26 16:45:47.613 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:47.613 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:47.613 Notice:+  $input = document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}
+2020-04-26 16:45:47.613 Notice:+  $in-txn = fn:false()
+2020-04-26 16:45:47.613 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-26 16:45:47.613 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy")
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/rest-api/models/resource-model-query.xqy, at 237:4,
+2020-04-26 16:45:47.613 Notice:+in rsrcmodqry:exec-post(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}, local:rsrcmod-callback#6) [1.0-ml]
+2020-04-26 16:45:47.613 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:47.613 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:47.613 Notice:+  $input = document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}
+2020-04-26 16:45:47.613 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-26 16:45:47.613 Notice:+in /data-hub/5/rest-api/endpoints/resource-service-query.xqy, at 79:8 [1.0-ml]
+2020-04-26 16:45:47.613 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:47.613 Notice:+  $method = "POST"
+2020-04-26 16:45:47.613 Notice:+  $body = document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}
+2020-04-26 16:45:47.613 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:47.613 Notice:+  $extra-names = ()
+2020-04-26 16:45:48.011 Info: Status 500: XDMP-URI: cts.doc("") -- Invalid URI format: ""
+2020-04-26 16:45:49.954 Notice: XDMP-URI: cts.doc("") -- Invalid URI format: ""
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/builtins/steps/mapping/entity-services/lib.sjs, at 344:16, in getCanonicalInstance() [javascript]
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/builtins/steps/mapping/entity-services/lib.sjs, at 326:17, in Object.keys.forEach.propertyName() [javascript]
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/builtins/steps/mapping/entity-services/lib.sjs, at 309:34, in runMapping() [javascript]
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/builtins/steps/mapping/entity-services/lib.sjs, at 230:9, in validateAndRunMapping() [javascript]
+2020-04-26 16:45:49.954 Notice:+in /marklogic.rest.resource/mlMappingValidator/assets/resource.sjs, at 22:22, in post() [javascript]
+2020-04-26 16:45:49.954 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-26 16:45:49.954 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-26 16:45:49.954 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 919:44,
+2020-04-26 16:45:49.954 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy")(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}) [javascript]
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 919:44,
+2020-04-26 16:45:49.954 Notice:+in extut:call-service("ml:mappingValidator", "POST", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy"), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}) [1.0-ml]
+2020-04-26 16:45:49.954 Notice:+  $extension-name = "ml:mappingValidator"
+2020-04-26 16:45:49.954 Notice:+  $method = "POST"
+2020-04-26 16:45:49.954 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy")
+2020-04-26 16:45:49.954 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:49.954 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:49.954 Notice:+  $input = document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 872:20,
+2020-04-26 16:45:49.954 Notice:+in function() as item()*() [1.0-ml]
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy,
+2020-04-26 16:45:49.954 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 870:12,
+2020-04-26 16:45:49.954 Notice:+in extut:invoke-service("ml:mappingValidator", "POST", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy"), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}, fn:false()) [1.0-ml]
+2020-04-26 16:45:49.954 Notice:+  $extension-name = "ml:mappingValidator"
+2020-04-26 16:45:49.954 Notice:+  $method = "POST"
+2020-04-26 16:45:49.954 Notice:+  $default-txn-mode = "query"
+2020-04-26 16:45:49.954 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy")
+2020-04-26 16:45:49.954 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:49.954 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:49.954 Notice:+  $input = document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}
+2020-04-26 16:45:49.954 Notice:+  $in-txn = fn:false()
+2020-04-26 16:45:49.954 Notice:+  $txn-curr = "query"
+2020-04-26 16:45:49.954 Notice:+  $txn-mode = "query"
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/rest-api/models/resource-model-query.xqy, at 270:20,
+2020-04-26 16:45:49.954 Notice:+in rsrcmodqry:resource-post("ml:mappingValidator", map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}, fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-26 16:45:49.954 Notice:+  $resource-name = "ml:mappingValidator"
+2020-04-26 16:45:49.954 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:49.954 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:49.954 Notice:+  $input = document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}
+2020-04-26 16:45:49.954 Notice:+  $in-txn = fn:false()
+2020-04-26 16:45:49.954 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-26 16:45:49.954 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlMappingValidator","post"), "/marklogic.rest.resource/mlMappingValidator/assets/resource.xqy")
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/rest-api/models/resource-model-query.xqy, at 237:4,
+2020-04-26 16:45:49.954 Notice:+in rsrcmodqry:exec-post(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}, local:rsrcmod-callback#6) [1.0-ml]
+2020-04-26 16:45:49.954 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:49.954 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:49.954 Notice:+  $input = document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}
+2020-04-26 16:45:49.954 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-26 16:45:49.954 Notice:+in /data-hub/5/rest-api/endpoints/resource-service-query.xqy, at 79:8 [1.0-ml]
+2020-04-26 16:45:49.954 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:49.954 Notice:+  $method = "POST"
+2020-04-26 16:45:49.954 Notice:+  $body = document{object-node{"version":number-node{0}, "lang":text{"zxx"}, "name":text{"ReferentialData-Garanties"}, ...}}
+2020-04-26 16:45:49.954 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-26 16:45:49.954 Notice:+  $extra-names = ()
+2020-04-26 16:45:49.956 Info: Status 500: XDMP-URI: cts.doc("") -- Invalid URI format: ""

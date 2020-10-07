@@ -1,0 +1,307 @@
+2020-04-28 08:56:38.808 Notice: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//instance/OffreGenerique/risque/Risque/libelle", ()) -- No  path range index for //instance/OffreGenerique/risque/Risque/libelle collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 08:56:38.808 Notice:+in /MarkLogic/rest-api/lib/search-util.xqy, at 1206:16,
+2020-04-28 08:56:38.808 Notice:+in sut:validate-options(<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 08:56:38.808 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 08:56:38.808 Notice:+  $code = xs:QName("err:FOER0000")
+2020-04-28 08:56:38.808 Notice:+  $description = "XDMP-PATHRIDXNOTFOUND: cts:path-reference(&quot;//instance/Offre..."
+2020-04-28 08:56:38.808 Notice:+  $value = ()
+2020-04-28 08:56:38.808 Notice:+  $module = "/MarkLogic/appservices/search/search-impl.xqy"
+2020-04-28 08:56:38.808 Notice:+  $line-number = 4545
+2020-04-28 08:56:38.808 Notice:+  $column-number = 16
+2020-04-28 08:56:38.808 Notice:+  $additional = <error:error xsi:schemaLocation="http://marklogic.com/xdmp/error error.xsd" .../>
+2020-04-28 08:56:38.808 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 428:23,
+2020-04-28 08:56:38.808 Notice:+in config-query:set-options("final-offre-generique-options", <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 08:56:38.808 Notice:+  $name = "final-offre-generique-options"
+2020-04-28 08:56:38.808 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 08:56:38.808 Notice:+  $modules-database-id = xs:unsignedLong("13643080502481599983")
+2020-04-28 08:56:38.808 Notice:+  $rest-group = xs:unsignedLong("6234226893351033239")
+2020-04-28 08:56:38.808 Notice:+  $rest-server = xs:unsignedLong("10753807140554427582")
+2020-04-28 08:56:38.808 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 165:16,
+2020-04-28 08:56:38.808 Notice:+in config-query:put(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}, eput:config-callback#2) [1.0-ml]
+2020-04-28 08:56:38.808 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 08:56:38.808 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 08:56:38.808 Notice:+  $input = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 08:56:38.808 Notice:+  $callback = eput:config-callback#2
+2020-04-28 08:56:38.808 Notice:+in /MarkLogic/rest-api/endpoints/config-query.xqy, at 64:8 [1.0-ml]
+2020-04-28 08:56:38.808 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 08:56:38.808 Notice:+  $method = "PUT"
+2020-04-28 08:56:38.808 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 08:56:38.808 Notice:+  $body = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 08:56:38.808 Notice:+  $extra-names = ()
+2020-04-28 08:56:39.194 Info: Status 500: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//instance/OffreGenerique/risque/Risque/libelle", ()) -- No  path range index for //instance/OffreGenerique/risque/Risque/libelle collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 08:59:58.725 Notice: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//instance/OffreGenerique/risque/Risque/libelle", ()) -- No  path range index for //instance/OffreGenerique/risque/Risque/libelle collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 08:59:58.725 Notice:+in /MarkLogic/rest-api/lib/search-util.xqy, at 1206:16,
+2020-04-28 08:59:58.725 Notice:+in sut:validate-options(<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 08:59:58.725 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 08:59:58.725 Notice:+  $code = xs:QName("err:FOER0000")
+2020-04-28 08:59:58.725 Notice:+  $description = "XDMP-PATHRIDXNOTFOUND: cts:path-reference(&quot;//instance/Offre..."
+2020-04-28 08:59:58.725 Notice:+  $value = ()
+2020-04-28 08:59:58.725 Notice:+  $module = "/MarkLogic/appservices/search/search-impl.xqy"
+2020-04-28 08:59:58.725 Notice:+  $line-number = 4545
+2020-04-28 08:59:58.725 Notice:+  $column-number = 16
+2020-04-28 08:59:58.725 Notice:+  $additional = <error:error xsi:schemaLocation="http://marklogic.com/xdmp/error error.xsd" .../>
+2020-04-28 08:59:58.725 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 428:23,
+2020-04-28 08:59:58.725 Notice:+in config-query:set-options("final-offre-generique-options", <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 08:59:58.725 Notice:+  $name = "final-offre-generique-options"
+2020-04-28 08:59:58.725 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 08:59:58.725 Notice:+  $modules-database-id = xs:unsignedLong("13643080502481599983")
+2020-04-28 08:59:58.725 Notice:+  $rest-group = xs:unsignedLong("6234226893351033239")
+2020-04-28 08:59:58.725 Notice:+  $rest-server = xs:unsignedLong("10753807140554427582")
+2020-04-28 08:59:58.725 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 165:16,
+2020-04-28 08:59:58.725 Notice:+in config-query:put(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}, eput:config-callback#2) [1.0-ml]
+2020-04-28 08:59:58.725 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 08:59:58.725 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 08:59:58.725 Notice:+  $input = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 08:59:58.725 Notice:+  $callback = eput:config-callback#2
+2020-04-28 08:59:58.725 Notice:+in /MarkLogic/rest-api/endpoints/config-query.xqy, at 64:8 [1.0-ml]
+2020-04-28 08:59:58.725 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 08:59:58.725 Notice:+  $method = "PUT"
+2020-04-28 08:59:58.725 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 08:59:58.725 Notice:+  $body = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 08:59:58.725 Notice:+  $extra-names = ()
+2020-04-28 08:59:59.151 Info: Status 500: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//instance/OffreGenerique/risque/Risque/libelle", ()) -- No  path range index for //instance/OffreGenerique/risque/Risque/libelle collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 09:10:27.459 Notice: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//*:instance/OffreGenerique/risque/Risque/libelle", ()) -- No  path range index for //*:instance/OffreGenerique/risque/Risque/libelle collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 09:10:27.459 Notice:+in /MarkLogic/rest-api/lib/search-util.xqy, at 1206:16,
+2020-04-28 09:10:27.459 Notice:+in sut:validate-options(<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 09:10:27.459 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 09:10:27.459 Notice:+  $code = xs:QName("err:FOER0000")
+2020-04-28 09:10:27.459 Notice:+  $description = "XDMP-PATHRIDXNOTFOUND: cts:path-reference(&quot;//*:instance/Off..."
+2020-04-28 09:10:27.459 Notice:+  $value = ()
+2020-04-28 09:10:27.459 Notice:+  $module = "/MarkLogic/appservices/search/search-impl.xqy"
+2020-04-28 09:10:27.459 Notice:+  $line-number = 4545
+2020-04-28 09:10:27.459 Notice:+  $column-number = 16
+2020-04-28 09:10:27.459 Notice:+  $additional = <error:error xsi:schemaLocation="http://marklogic.com/xdmp/error error.xsd" .../>
+2020-04-28 09:10:27.459 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 428:23,
+2020-04-28 09:10:27.459 Notice:+in config-query:set-options("final-offre-generique-options", <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 09:10:27.459 Notice:+  $name = "final-offre-generique-options"
+2020-04-28 09:10:27.459 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 09:10:27.459 Notice:+  $modules-database-id = xs:unsignedLong("13643080502481599983")
+2020-04-28 09:10:27.459 Notice:+  $rest-group = xs:unsignedLong("6234226893351033239")
+2020-04-28 09:10:27.459 Notice:+  $rest-server = xs:unsignedLong("10753807140554427582")
+2020-04-28 09:10:27.459 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 165:16,
+2020-04-28 09:10:27.459 Notice:+in config-query:put(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}, eput:config-callback#2) [1.0-ml]
+2020-04-28 09:10:27.459 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:10:27.459 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:10:27.459 Notice:+  $input = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 09:10:27.459 Notice:+  $callback = eput:config-callback#2
+2020-04-28 09:10:27.459 Notice:+in /MarkLogic/rest-api/endpoints/config-query.xqy, at 64:8 [1.0-ml]
+2020-04-28 09:10:27.459 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:10:27.459 Notice:+  $method = "PUT"
+2020-04-28 09:10:27.459 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:10:27.459 Notice:+  $body = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 09:10:27.459 Notice:+  $extra-names = ()
+2020-04-28 09:10:27.801 Info: Status 500: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//*:instance/OffreGenerique/risque/Risque/libelle", ()) -- No  path range index for //*:instance/OffreGenerique/risque/Risque/libelle collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 09:20:59.240 Notice: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//*:instance/OffreGenerique/risque/Risque/libelle", ()) -- No  path range index for //*:instance/OffreGenerique/risque/Risque/libelle collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 09:20:59.240 Notice:+in /MarkLogic/rest-api/lib/search-util.xqy, at 1206:16,
+2020-04-28 09:20:59.240 Notice:+in sut:validate-options(<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 09:20:59.240 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 09:20:59.240 Notice:+  $code = xs:QName("err:FOER0000")
+2020-04-28 09:20:59.240 Notice:+  $description = "XDMP-PATHRIDXNOTFOUND: cts:path-reference(&quot;//*:instance/Off..."
+2020-04-28 09:20:59.240 Notice:+  $value = ()
+2020-04-28 09:20:59.240 Notice:+  $module = "/MarkLogic/appservices/search/search-impl.xqy"
+2020-04-28 09:20:59.240 Notice:+  $line-number = 4545
+2020-04-28 09:20:59.240 Notice:+  $column-number = 16
+2020-04-28 09:20:59.240 Notice:+  $additional = <error:error xsi:schemaLocation="http://marklogic.com/xdmp/error error.xsd" .../>
+2020-04-28 09:20:59.240 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 428:23,
+2020-04-28 09:20:59.240 Notice:+in config-query:set-options("final-offre-generique-options", <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 09:20:59.240 Notice:+  $name = "final-offre-generique-options"
+2020-04-28 09:20:59.240 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 09:20:59.240 Notice:+  $modules-database-id = xs:unsignedLong("13643080502481599983")
+2020-04-28 09:20:59.240 Notice:+  $rest-group = xs:unsignedLong("6234226893351033239")
+2020-04-28 09:20:59.240 Notice:+  $rest-server = xs:unsignedLong("10753807140554427582")
+2020-04-28 09:20:59.240 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 165:16,
+2020-04-28 09:20:59.240 Notice:+in config-query:put(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}, eput:config-callback#2) [1.0-ml]
+2020-04-28 09:20:59.240 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:20:59.240 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:20:59.240 Notice:+  $input = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 09:20:59.240 Notice:+  $callback = eput:config-callback#2
+2020-04-28 09:20:59.240 Notice:+in /MarkLogic/rest-api/endpoints/config-query.xqy, at 64:8 [1.0-ml]
+2020-04-28 09:20:59.240 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:20:59.240 Notice:+  $method = "PUT"
+2020-04-28 09:20:59.240 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:20:59.240 Notice:+  $body = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 09:20:59.240 Notice:+  $extra-names = ()
+2020-04-28 09:20:59.582 Info: Status 500: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//*:instance/OffreGenerique/risque/Risque/libelle", ()) -- No  path range index for //*:instance/OffreGenerique/risque/Risque/libelle collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 09:24:14.880 Notice: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//*:instance/OffreGenerique/cotisation/Cotisation/structure", ()) -- No  path range index for //*:instance/OffreGenerique/cotisation/Cotisation/structure collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 09:24:14.880 Notice:+in /MarkLogic/rest-api/lib/search-util.xqy, at 1206:16,
+2020-04-28 09:24:14.880 Notice:+in sut:validate-options(<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 09:24:14.880 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 09:24:14.880 Notice:+  $code = xs:QName("err:FOER0000")
+2020-04-28 09:24:14.880 Notice:+  $description = "XDMP-PATHRIDXNOTFOUND: cts:path-reference(&quot;//*:instance/Off..."
+2020-04-28 09:24:14.880 Notice:+  $value = ()
+2020-04-28 09:24:14.880 Notice:+  $module = "/MarkLogic/appservices/search/search-impl.xqy"
+2020-04-28 09:24:14.880 Notice:+  $line-number = 4545
+2020-04-28 09:24:14.880 Notice:+  $column-number = 16
+2020-04-28 09:24:14.880 Notice:+  $additional = <error:error xsi:schemaLocation="http://marklogic.com/xdmp/error error.xsd" .../>
+2020-04-28 09:24:14.880 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 428:23,
+2020-04-28 09:24:14.880 Notice:+in config-query:set-options("final-offre-generique-options", <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 09:24:14.880 Notice:+  $name = "final-offre-generique-options"
+2020-04-28 09:24:14.880 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 09:24:14.880 Notice:+  $modules-database-id = xs:unsignedLong("13643080502481599983")
+2020-04-28 09:24:14.880 Notice:+  $rest-group = xs:unsignedLong("6234226893351033239")
+2020-04-28 09:24:14.880 Notice:+  $rest-server = xs:unsignedLong("10753807140554427582")
+2020-04-28 09:24:14.880 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 165:16,
+2020-04-28 09:24:14.880 Notice:+in config-query:put(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}, eput:config-callback#2) [1.0-ml]
+2020-04-28 09:24:14.880 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:24:14.880 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:24:14.880 Notice:+  $input = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 09:24:14.880 Notice:+  $callback = eput:config-callback#2
+2020-04-28 09:24:14.880 Notice:+in /MarkLogic/rest-api/endpoints/config-query.xqy, at 64:8 [1.0-ml]
+2020-04-28 09:24:14.880 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:24:14.880 Notice:+  $method = "PUT"
+2020-04-28 09:24:14.880 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:24:14.880 Notice:+  $body = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 09:24:14.880 Notice:+  $extra-names = ()
+2020-04-28 09:24:15.391 Info: Status 500: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//*:instance/OffreGenerique/cotisation/Cotisation/structure", ()) -- No  path range index for //*:instance/OffreGenerique/cotisation/Cotisation/structure collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 09:28:33.211 Notice: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//*:instance/OffreGenerique/cotisation/Cotisation/structure", ()) -- No  path range index for //*:instance/OffreGenerique/cotisation/Cotisation/structure collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 09:28:33.211 Notice:+in /MarkLogic/rest-api/lib/search-util.xqy, at 1206:16,
+2020-04-28 09:28:33.211 Notice:+in sut:validate-options(<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 09:28:33.211 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 09:28:33.211 Notice:+  $code = xs:QName("err:FOER0000")
+2020-04-28 09:28:33.211 Notice:+  $description = "XDMP-PATHRIDXNOTFOUND: cts:path-reference(&quot;//*:instance/Off..."
+2020-04-28 09:28:33.211 Notice:+  $value = ()
+2020-04-28 09:28:33.211 Notice:+  $module = "/MarkLogic/appservices/search/search-impl.xqy"
+2020-04-28 09:28:33.211 Notice:+  $line-number = 4545
+2020-04-28 09:28:33.211 Notice:+  $column-number = 16
+2020-04-28 09:28:33.211 Notice:+  $additional = <error:error xsi:schemaLocation="http://marklogic.com/xdmp/error error.xsd" .../>
+2020-04-28 09:28:33.211 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 428:23,
+2020-04-28 09:28:33.211 Notice:+in config-query:set-options("final-offre-generique-options", <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 09:28:33.211 Notice:+  $name = "final-offre-generique-options"
+2020-04-28 09:28:33.211 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 09:28:33.211 Notice:+  $modules-database-id = xs:unsignedLong("13643080502481599983")
+2020-04-28 09:28:33.211 Notice:+  $rest-group = xs:unsignedLong("6234226893351033239")
+2020-04-28 09:28:33.211 Notice:+  $rest-server = xs:unsignedLong("10753807140554427582")
+2020-04-28 09:28:33.211 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 165:16,
+2020-04-28 09:28:33.211 Notice:+in config-query:put(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}, eput:config-callback#2) [1.0-ml]
+2020-04-28 09:28:33.211 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:28:33.211 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:28:33.211 Notice:+  $input = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 09:28:33.211 Notice:+  $callback = eput:config-callback#2
+2020-04-28 09:28:33.211 Notice:+in /MarkLogic/rest-api/endpoints/config-query.xqy, at 64:8 [1.0-ml]
+2020-04-28 09:28:33.211 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:28:33.211 Notice:+  $method = "PUT"
+2020-04-28 09:28:33.211 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 09:28:33.211 Notice:+  $body = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 09:28:33.211 Notice:+  $extra-names = ()
+2020-04-28 09:28:33.674 Info: Status 500: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//*:instance/OffreGenerique/cotisation/Cotisation/structure", ()) -- No  path range index for //*:instance/OffreGenerique/cotisation/Cotisation/structure collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 10:07:26.873 Notice: JS-JAVASCRIPT: resultP["offreCommercialeDeRattachement"] = idOffreCommerciale; -- Error running JavaScript request: TypeError: Cannot set property 'offreCommercialeDeRattachement' of undefined
+2020-04-28 10:07:26.873 Notice:+in /marklogic.rest.resource/produitGestion/assets/resource.sjs, at 25:46, in getById() [javascript]
+2020-04-28 10:07:26.873 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-28 10:07:26.873 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-28 10:07:26.873 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-28 10:07:26.873 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-28 10:07:26.873 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-28 10:07:26.873 Notice:+in extut:call-service("produitGestion", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-28 10:07:26.873 Notice:+  $extension-name = "produitGestion"
+2020-04-28 10:07:26.873 Notice:+  $method = "GET"
+2020-04-28 10:07:26.873 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy")
+2020-04-28 10:07:26.873 Notice:+  $context = map:map()
+2020-04-28 10:07:26.873 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 10:07:26.873 Notice:+  $input = ()
+2020-04-28 10:07:26.873 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-28 10:07:26.873 Notice:+in function() as item()*() [1.0-ml]
+2020-04-28 10:07:26.873 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-28 10:07:26.873 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-28 10:07:26.873 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-28 10:07:26.873 Notice:+in extut:invoke-service("produitGestion", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-28 10:07:26.873 Notice:+  $extension-name = "produitGestion"
+2020-04-28 10:07:26.873 Notice:+  $method = "GET"
+2020-04-28 10:07:26.873 Notice:+  $default-txn-mode = "query"
+2020-04-28 10:07:26.873 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy")
+2020-04-28 10:07:26.873 Notice:+  $context = map:map()
+2020-04-28 10:07:26.873 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 10:07:26.873 Notice:+  $input = ()
+2020-04-28 10:07:26.873 Notice:+  $in-txn = fn:false()
+2020-04-28 10:07:26.873 Notice:+  $txn-curr = "query"
+2020-04-28 10:07:26.873 Notice:+  $txn-mode = "query"
+2020-04-28 10:07:26.873 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-28 10:07:26.873 Notice:+in rsrcmodqry:resource-get("produitGestion", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-28 10:07:26.873 Notice:+  $resource-name = "produitGestion"
+2020-04-28 10:07:26.873 Notice:+  $context = map:map()
+2020-04-28 10:07:26.873 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 10:07:26.873 Notice:+  $in-txn = fn:false()
+2020-04-28 10:07:26.873 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-28 10:07:26.873 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy")
+2020-04-28 10:07:26.873 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-28 10:07:26.873 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-28 10:07:26.873 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 10:07:26.873 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 10:07:26.873 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-28 10:07:26.873 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-28 10:07:27.342 Info: Status 500: JS-JAVASCRIPT: resultP["offreCommercialeDeRattachement"] = idOffreCommerciale; -- Error running JavaScript request: TypeError: Cannot set property 'offreCommercialeDeRattachement' of undefined
+2020-04-28 10:07:44.471 Notice: JS-JAVASCRIPT: "offreGeneriqueDeRattachement": result.rattacheA.id -- Error running JavaScript request: TypeError: Cannot read property 'id' of undefined
+2020-04-28 10:07:44.471 Notice:+in /marklogic.rest.resource/offreCommerciale/assets/resource.sjs, at 29:56, in getById() [javascript]
+2020-04-28 10:07:44.471 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-28 10:07:44.471 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-28 10:07:44.471 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-28 10:07:44.471 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-28 10:07:44.471 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-28 10:07:44.471 Notice:+in extut:call-service("offreCommerciale", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-28 10:07:44.471 Notice:+  $extension-name = "offreCommerciale"
+2020-04-28 10:07:44.471 Notice:+  $method = "GET"
+2020-04-28 10:07:44.471 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy")
+2020-04-28 10:07:44.471 Notice:+  $context = map:map()
+2020-04-28 10:07:44.471 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 10:07:44.471 Notice:+  $input = ()
+2020-04-28 10:07:44.471 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-28 10:07:44.471 Notice:+in function() as item()*() [1.0-ml]
+2020-04-28 10:07:44.471 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-28 10:07:44.471 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-28 10:07:44.471 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-28 10:07:44.471 Notice:+in extut:invoke-service("offreCommerciale", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-28 10:07:44.471 Notice:+  $extension-name = "offreCommerciale"
+2020-04-28 10:07:44.471 Notice:+  $method = "GET"
+2020-04-28 10:07:44.471 Notice:+  $default-txn-mode = "query"
+2020-04-28 10:07:44.471 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy")
+2020-04-28 10:07:44.471 Notice:+  $context = map:map()
+2020-04-28 10:07:44.471 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 10:07:44.471 Notice:+  $input = ()
+2020-04-28 10:07:44.471 Notice:+  $in-txn = fn:false()
+2020-04-28 10:07:44.471 Notice:+  $txn-curr = "query"
+2020-04-28 10:07:44.471 Notice:+  $txn-mode = "query"
+2020-04-28 10:07:44.471 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-28 10:07:44.471 Notice:+in rsrcmodqry:resource-get("offreCommerciale", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-28 10:07:44.471 Notice:+  $resource-name = "offreCommerciale"
+2020-04-28 10:07:44.471 Notice:+  $context = map:map()
+2020-04-28 10:07:44.471 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 10:07:44.471 Notice:+  $in-txn = fn:false()
+2020-04-28 10:07:44.471 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-28 10:07:44.471 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy")
+2020-04-28 10:07:44.471 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-28 10:07:44.471 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-28 10:07:44.471 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 10:07:44.471 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 10:07:44.471 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-28 10:07:44.471 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-28 10:07:44.474 Info: Status 500: JS-JAVASCRIPT: "offreGeneriqueDeRattachement": result.rattacheA.id -- Error running JavaScript request: TypeError: Cannot read property 'id' of undefined
+2020-04-28 16:10:35.712 Notice: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//instance/risque/libelle", ()) -- No  path range index for //instance/risque/libelle collation=http://marklogic.com/collation/ coordinate-system=wgs84
+2020-04-28 16:10:35.712 Notice:+in /MarkLogic/rest-api/lib/search-util.xqy, at 1206:16,
+2020-04-28 16:10:35.712 Notice:+in sut:validate-options(<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 16:10:35.712 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 16:10:35.712 Notice:+  $code = xs:QName("err:FOER0000")
+2020-04-28 16:10:35.712 Notice:+  $description = "XDMP-PATHRIDXNOTFOUND: cts:path-reference(&quot;//instance/risqu..."
+2020-04-28 16:10:35.712 Notice:+  $value = ()
+2020-04-28 16:10:35.712 Notice:+  $module = "/MarkLogic/appservices/search/search-impl.xqy"
+2020-04-28 16:10:35.712 Notice:+  $line-number = 4545
+2020-04-28 16:10:35.712 Notice:+  $column-number = 16
+2020-04-28 16:10:35.712 Notice:+  $additional = <error:error xsi:schemaLocation="http://marklogic.com/xdmp/error error.xsd" .../>
+2020-04-28 16:10:35.712 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 428:23,
+2020-04-28 16:10:35.712 Notice:+in config-query:set-options("final-offre-generique-options", <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>) [1.0-ml]
+2020-04-28 16:10:35.712 Notice:+  $name = "final-offre-generique-options"
+2020-04-28 16:10:35.712 Notice:+  $options = <options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>
+2020-04-28 16:10:35.712 Notice:+  $modules-database-id = xs:unsignedLong("13643080502481599983")
+2020-04-28 16:10:35.712 Notice:+  $rest-group = xs:unsignedLong("6234226893351033239")
+2020-04-28 16:10:35.712 Notice:+  $rest-server = xs:unsignedLong("10753807140554427582")
+2020-04-28 16:10:35.712 Notice:+in /MarkLogic/rest-api/models/config-query-model.xqy, at 165:16,
+2020-04-28 16:10:35.712 Notice:+in config-query:put(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}, eput:config-callback#2) [1.0-ml]
+2020-04-28 16:10:35.712 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 16:10:35.712 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 16:10:35.712 Notice:+  $input = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 16:10:35.712 Notice:+  $callback = eput:config-callback#2
+2020-04-28 16:10:35.712 Notice:+in /MarkLogic/rest-api/endpoints/config-query.xqy, at 64:8 [1.0-ml]
+2020-04-28 16:10:35.712 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 16:10:35.712 Notice:+  $method = "PUT"
+2020-04-28 16:10:35.712 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-28 16:10:35.712 Notice:+  $body = document{<options xmlns="http://marklogic.com/appservices/search"><page-length>...</page-length>...</options>}
+2020-04-28 16:10:35.712 Notice:+  $extra-names = ()
+2020-04-28 16:10:36.123 Info: Status 500: RESTAPI-INVALIDCONTENT: (err:FOER0000) Invalid content: Operation results in invalid Options: XDMP-PATHRIDXNOTFOUND: cts:path-reference("//instance/risque/libelle", ()) -- No  path range index for //instance/risque/libelle collation=http://marklogic.com/collation/ coordinate-system=wgs84

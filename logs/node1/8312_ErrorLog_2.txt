@@ -1,0 +1,226 @@
+2020-04-29 07:36:50.160 Notice: JS-JAVASCRIPT: let matches = cts.uriMatch(constUtils.basePath + "/OffreGenerique/" + id + "*" + ".json").toArray(); -- Error running JavaScript request: ReferenceError: constUtils is not defined
+2020-04-29 07:36:50.160 Notice:+in /marklogic.rest.resource/exportCSV/assets/resource.sjs, at 10:35, in exportCSV() [javascript]
+2020-04-29 07:36:50.160 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-29 07:36:50.160 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-29 07:36:50.160 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-29 07:36:50.160 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-29 07:36:50.160 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-29 07:36:50.160 Notice:+in extut:call-service("exportCSV", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-29 07:36:50.160 Notice:+  $extension-name = "exportCSV"
+2020-04-29 07:36:50.160 Notice:+  $method = "GET"
+2020-04-29 07:36:50.160 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:36:50.160 Notice:+  $context = map:map()
+2020-04-29 07:36:50.160 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:36:50.160 Notice:+  $input = ()
+2020-04-29 07:36:50.160 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-29 07:36:50.160 Notice:+in function() as item()*() [1.0-ml]
+2020-04-29 07:36:50.160 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-29 07:36:50.160 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-29 07:36:50.160 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-29 07:36:50.160 Notice:+in extut:invoke-service("exportCSV", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-29 07:36:50.160 Notice:+  $extension-name = "exportCSV"
+2020-04-29 07:36:50.160 Notice:+  $method = "GET"
+2020-04-29 07:36:50.160 Notice:+  $default-txn-mode = "query"
+2020-04-29 07:36:50.160 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:36:50.160 Notice:+  $context = map:map()
+2020-04-29 07:36:50.160 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:36:50.160 Notice:+  $input = ()
+2020-04-29 07:36:50.160 Notice:+  $in-txn = fn:false()
+2020-04-29 07:36:50.160 Notice:+  $txn-curr = "query"
+2020-04-29 07:36:50.160 Notice:+  $txn-mode = "query"
+2020-04-29 07:36:50.160 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-29 07:36:50.160 Notice:+in rsrcmodqry:resource-get("exportCSV", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-29 07:36:50.160 Notice:+  $resource-name = "exportCSV"
+2020-04-29 07:36:50.160 Notice:+  $context = map:map()
+2020-04-29 07:36:50.160 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:36:50.160 Notice:+  $in-txn = fn:false()
+2020-04-29 07:36:50.160 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-29 07:36:50.160 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:36:50.160 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-29 07:36:50.160 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-29 07:36:50.160 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:36:50.160 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:36:50.160 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-29 07:36:50.160 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-29 07:36:50.629 Info: Status 500: JS-JAVASCRIPT: let matches = cts.uriMatch(constUtils.basePath + "/OffreGenerique/" + id + "*" + ".json").toArray(); -- Error running JavaScript request: ReferenceError: constUtils is not defined
+2020-04-29 07:37:46.493 Notice: XDMP-ARGTYPE: cts.doc(null) -- arg1 is not of type String
+2020-04-29 07:37:46.493 Notice:+in /marklogic.rest.resource/exportCSV/assets/resource.sjs, at 14:22, in exportCSV() [javascript]
+2020-04-29 07:37:46.493 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-29 07:37:46.493 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-29 07:37:46.493 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-29 07:37:46.493 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-29 07:37:46.493 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-29 07:37:46.493 Notice:+in extut:call-service("exportCSV", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-29 07:37:46.493 Notice:+  $extension-name = "exportCSV"
+2020-04-29 07:37:46.493 Notice:+  $method = "GET"
+2020-04-29 07:37:46.493 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:37:46.493 Notice:+  $context = map:map()
+2020-04-29 07:37:46.493 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:37:46.493 Notice:+  $input = ()
+2020-04-29 07:37:46.493 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-29 07:37:46.493 Notice:+in function() as item()*() [1.0-ml]
+2020-04-29 07:37:46.493 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-29 07:37:46.493 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-29 07:37:46.493 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-29 07:37:46.493 Notice:+in extut:invoke-service("exportCSV", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-29 07:37:46.493 Notice:+  $extension-name = "exportCSV"
+2020-04-29 07:37:46.493 Notice:+  $method = "GET"
+2020-04-29 07:37:46.493 Notice:+  $default-txn-mode = "query"
+2020-04-29 07:37:46.493 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:37:46.493 Notice:+  $context = map:map()
+2020-04-29 07:37:46.493 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:37:46.493 Notice:+  $input = ()
+2020-04-29 07:37:46.493 Notice:+  $in-txn = fn:false()
+2020-04-29 07:37:46.493 Notice:+  $txn-curr = "query"
+2020-04-29 07:37:46.493 Notice:+  $txn-mode = "query"
+2020-04-29 07:37:46.493 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-29 07:37:46.493 Notice:+in rsrcmodqry:resource-get("exportCSV", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-29 07:37:46.493 Notice:+  $resource-name = "exportCSV"
+2020-04-29 07:37:46.493 Notice:+  $context = map:map()
+2020-04-29 07:37:46.493 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:37:46.493 Notice:+  $in-txn = fn:false()
+2020-04-29 07:37:46.493 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-29 07:37:46.493 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:37:46.493 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-29 07:37:46.493 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-29 07:37:46.493 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:37:46.493 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:37:46.493 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-29 07:37:46.493 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-29 07:37:47.019 Info: Status 500: XDMP-ARGTYPE: cts.doc(null) -- arg1 is not of type String
+2020-04-29 07:41:06.588 Notice: RESTAPI-SRVEXERR: fn.error(null, 'RESTAPI-SRVEXERR', -- Extension Error:  code: 404 message: Not Found document: offre generique non trouvee pour id 0
+2020-04-29 07:41:06.588 Notice:+in /marklogic.rest.resource/exportCSV/assets/resource.sjs, at 31:7, in returnErrToClient() [javascript]
+2020-04-29 07:41:06.588 Notice:+in /marklogic.rest.resource/exportCSV/assets/resource.sjs, at 15:12, in exportCSV() [javascript]
+2020-04-29 07:41:06.588 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-29 07:41:06.588 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-29 07:41:06.588 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-29 07:41:06.588 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-29 07:41:06.588 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-29 07:41:06.588 Notice:+in extut:call-service("exportCSV", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-29 07:41:06.588 Notice:+  $extension-name = "exportCSV"
+2020-04-29 07:41:06.588 Notice:+  $method = "GET"
+2020-04-29 07:41:06.588 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:41:06.588 Notice:+  $context = map:map()
+2020-04-29 07:41:06.588 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:41:06.588 Notice:+  $input = ()
+2020-04-29 07:41:06.588 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-29 07:41:06.588 Notice:+in function() as item()*() [1.0-ml]
+2020-04-29 07:41:06.588 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-29 07:41:06.588 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-29 07:41:06.588 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-29 07:41:06.588 Notice:+in extut:invoke-service("exportCSV", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-29 07:41:06.588 Notice:+  $extension-name = "exportCSV"
+2020-04-29 07:41:06.588 Notice:+  $method = "GET"
+2020-04-29 07:41:06.588 Notice:+  $default-txn-mode = "query"
+2020-04-29 07:41:06.588 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:41:06.588 Notice:+  $context = map:map()
+2020-04-29 07:41:06.588 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:41:06.588 Notice:+  $input = ()
+2020-04-29 07:41:06.588 Notice:+  $in-txn = fn:false()
+2020-04-29 07:41:06.588 Notice:+  $txn-curr = "query"
+2020-04-29 07:41:06.588 Notice:+  $txn-mode = "query"
+2020-04-29 07:41:06.588 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-29 07:41:06.588 Notice:+in rsrcmodqry:resource-get("exportCSV", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-29 07:41:06.588 Notice:+  $resource-name = "exportCSV"
+2020-04-29 07:41:06.588 Notice:+  $context = map:map()
+2020-04-29 07:41:06.588 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:41:06.588 Notice:+  $in-txn = fn:false()
+2020-04-29 07:41:06.588 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-29 07:41:06.588 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:41:06.588 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-29 07:41:06.588 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-29 07:41:06.588 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:41:06.588 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:41:06.588 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-29 07:41:06.588 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-29 07:41:07.068 Info: Status 500: RESTAPI-SRVEXERR: fn.error(null, 'RESTAPI-SRVEXERR', -- Extension Error:  code: 404 message: Not Found document: offre generique non trouvee pour id 0
+2020-04-29 07:42:04.448 Notice: JS-JAVASCRIPT: let p = result.prestattions[0]; -- Error running JavaScript request: TypeError: Cannot read property '0' of undefined
+2020-04-29 07:42:04.448 Notice:+in /marklogic.rest.resource/exportCSV/assets/resource.sjs, at 18:35, in exportCSV() [javascript]
+2020-04-29 07:42:04.448 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-29 07:42:04.448 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-29 07:42:04.448 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-29 07:42:04.448 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-29 07:42:04.448 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-29 07:42:04.448 Notice:+in extut:call-service("exportCSV", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-29 07:42:04.448 Notice:+  $extension-name = "exportCSV"
+2020-04-29 07:42:04.448 Notice:+  $method = "GET"
+2020-04-29 07:42:04.448 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:42:04.448 Notice:+  $context = map:map()
+2020-04-29 07:42:04.448 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:42:04.448 Notice:+  $input = ()
+2020-04-29 07:42:04.448 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-29 07:42:04.448 Notice:+in function() as item()*() [1.0-ml]
+2020-04-29 07:42:04.448 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-29 07:42:04.448 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-29 07:42:04.448 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-29 07:42:04.448 Notice:+in extut:invoke-service("exportCSV", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-29 07:42:04.448 Notice:+  $extension-name = "exportCSV"
+2020-04-29 07:42:04.448 Notice:+  $method = "GET"
+2020-04-29 07:42:04.448 Notice:+  $default-txn-mode = "query"
+2020-04-29 07:42:04.448 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:42:04.448 Notice:+  $context = map:map()
+2020-04-29 07:42:04.448 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:42:04.448 Notice:+  $input = ()
+2020-04-29 07:42:04.448 Notice:+  $in-txn = fn:false()
+2020-04-29 07:42:04.448 Notice:+  $txn-curr = "query"
+2020-04-29 07:42:04.448 Notice:+  $txn-mode = "query"
+2020-04-29 07:42:04.448 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-29 07:42:04.448 Notice:+in rsrcmodqry:resource-get("exportCSV", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-29 07:42:04.448 Notice:+  $resource-name = "exportCSV"
+2020-04-29 07:42:04.448 Notice:+  $context = map:map()
+2020-04-29 07:42:04.448 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:42:04.448 Notice:+  $in-txn = fn:false()
+2020-04-29 07:42:04.448 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-29 07:42:04.448 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:42:04.448 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-29 07:42:04.448 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-29 07:42:04.448 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:42:04.448 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:42:04.448 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-29 07:42:04.448 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-29 07:42:04.994 Info: Status 500: JS-JAVASCRIPT: let p = result.prestattions[0]; -- Error running JavaScript request: TypeError: Cannot read property '0' of undefined
+2020-04-29 07:42:44.031 Notice: JS-JAVASCRIPT: let p = result.prestations[0]; -- Error running JavaScript request: TypeError: Cannot read property '0' of undefined
+2020-04-29 07:42:44.031 Notice:+in /marklogic.rest.resource/exportCSV/assets/resource.sjs, at 18:34, in exportCSV() [javascript]
+2020-04-29 07:42:44.031 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-29 07:42:44.031 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-29 07:42:44.031 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-29 07:42:44.031 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-29 07:42:44.031 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-29 07:42:44.031 Notice:+in extut:call-service("exportCSV", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-29 07:42:44.031 Notice:+  $extension-name = "exportCSV"
+2020-04-29 07:42:44.031 Notice:+  $method = "GET"
+2020-04-29 07:42:44.031 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:42:44.031 Notice:+  $context = map:map()
+2020-04-29 07:42:44.031 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:42:44.031 Notice:+  $input = ()
+2020-04-29 07:42:44.031 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-29 07:42:44.031 Notice:+in function() as item()*() [1.0-ml]
+2020-04-29 07:42:44.031 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-29 07:42:44.031 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-29 07:42:44.031 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-29 07:42:44.031 Notice:+in extut:invoke-service("exportCSV", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-29 07:42:44.031 Notice:+  $extension-name = "exportCSV"
+2020-04-29 07:42:44.031 Notice:+  $method = "GET"
+2020-04-29 07:42:44.031 Notice:+  $default-txn-mode = "query"
+2020-04-29 07:42:44.031 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:42:44.031 Notice:+  $context = map:map()
+2020-04-29 07:42:44.031 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:42:44.031 Notice:+  $input = ()
+2020-04-29 07:42:44.031 Notice:+  $in-txn = fn:false()
+2020-04-29 07:42:44.031 Notice:+  $txn-curr = "query"
+2020-04-29 07:42:44.031 Notice:+  $txn-mode = "query"
+2020-04-29 07:42:44.031 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-29 07:42:44.031 Notice:+in rsrcmodqry:resource-get("exportCSV", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-29 07:42:44.031 Notice:+  $resource-name = "exportCSV"
+2020-04-29 07:42:44.031 Notice:+  $context = map:map()
+2020-04-29 07:42:44.031 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:42:44.031 Notice:+  $in-txn = fn:false()
+2020-04-29 07:42:44.031 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-29 07:42:44.031 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/exportCSV","get"), "/marklogic.rest.resource/exportCSV/assets/resource.xqy")
+2020-04-29 07:42:44.031 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-29 07:42:44.031 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-29 07:42:44.031 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:42:44.031 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-29 07:42:44.031 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-29 07:42:44.031 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-29 07:42:44.538 Info: Status 500: JS-JAVASCRIPT: let p = result.prestations[0]; -- Error running JavaScript request: TypeError: Cannot read property '0' of undefined

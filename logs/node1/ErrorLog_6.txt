@@ -1,0 +1,11 @@
+2020-04-25 06:30:03.271 Warning: Canary thread sleep was 69277 ms
+2020-04-25 06:30:06.520 Warning: Hung 42975 sec
+2020-04-25 06:30:06.521 Info: Saving /var/opt/MarkLogic/Forests/Meters/00000002
+2020-04-25 06:30:07.128 Info: Slow background server.background.backgroundDelayCheck, 3.208 sec
+2020-04-25 06:30:09.932 Info: Saved 7 MB in 3 sec at 2 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000002
+2020-04-25 06:30:10.531 Info: Memory 13% phys=7973 size=1287(16%) rss=1066(13%) anon=986(12%) file=17(0%) forest=554(6%) cache=2560(32%) registry=1(0%)
+2020-04-25 14:57:35.429 Warning: Hung 30434 sec
+2020-04-25 14:57:35.800 Warning: Canary thread sleep was 30434330 ms
+2020-04-25 14:57:36.293 Info: Memory 12% phys=7973 size=1222(15%) rss=1001(12%) anon=921(11%) file=17(0%) forest=874(10%) cache=2560(32%) registry=1(0%)
+2020-04-25 15:28:00.194 Info: Memory 13% phys=7973 size=1264(15%) rss=1044(13%) anon=963(12%) file=17(0%) forest=874(10%) cache=2560(32%) registry=1(0%)
+2020-04-25 15:58:00.153 Info: Memory 13% phys=7973 size=1299(16%) rss=1079(13%) anon=998(12%) file=17(0%) forest=874(10%) cache=2560(32%) registry=1(0%)

@@ -1,0 +1,906 @@
+2020-05-12 07:50:22.453 Notice: Starting MarkLogic Server 9.0-12 x86_64 in /opt/MarkLogic with data in /var/opt/MarkLogic
+2020-05-12 07:50:22.491 Info: MarkLogic Converters not installed
+2020-05-12 07:50:22.510 Info: Host ml-9.0-12-agrica with 8GB memory running Linux 4.9.184-linuxkit (CentOS Linux release 7.7.1908 (Core)) on Docker
+2020-05-12 07:50:22.513 Warning: Linux swap is underprovisioned; need=8GB have=1GB
+2020-05-12 07:50:22.751 Info: License key languages: en
+2020-05-12 07:50:22.812 Info: Using icu tokenization: ta ro tr da fi hu
+2020-05-12 07:50:22.812 Info: Using bitext stemming: en en-uc
+2020-05-12 07:50:22.812 Info: Using snowball stemming: ta ro tr da fi hu
+2020-05-12 07:50:24.622 Info: Loaded schemas, rule sets, and templates
+2020-05-12 07:50:24.705 Notice: Keystore {kms-type=internal, status=normal, dataEncryption=default-off, configEncryption=off, logsEncryption=off}
+2020-05-12 07:50:24.719 Info: Native plugin cache manifest initialized
+2020-05-12 07:50:24.733 Info: Forest Last-Login state changed from unmounted to mounted
+2020-05-12 07:50:24.733 Info: Forest Triggers state changed from unmounted to mounted
+2020-05-12 07:50:24.733 Info: Forest App-Services state changed from unmounted to mounted
+2020-05-12 07:50:24.734 Notice: Mounted forest App-Services locally on /var/opt/MarkLogic/Forests/App-Services read write
+2020-05-12 07:50:24.734 Notice: Mounted forest Triggers locally on /var/opt/MarkLogic/Forests/Triggers read write
+2020-05-12 07:50:24.735 Notice: Mounted forest Last-Login locally on /var/opt/MarkLogic/Forests/Last-Login read write
+2020-05-12 07:50:24.736 Info: Forest Meters state changed from unmounted to mounted
+2020-05-12 07:50:24.736 Notice: Mounted forest Meters locally on /var/opt/MarkLogic/Forests/Meters read write
+2020-05-12 07:50:24.742 Info: Forest Triggers state changed from mounted to recovering
+2020-05-12 07:50:24.744 Info: Forest Last-Login state changed from mounted to recovering
+2020-05-12 07:50:24.745 Info: Deleted 1 MB at 233 MB/sec /var/opt/MarkLogic/Forests/Meters/0000003e
+2020-05-12 07:50:24.746 Info: Forest Triggers state changed from recovering to open
+2020-05-12 07:50:24.746 Info: Forest Last-Login state changed from recovering to open
+2020-05-12 07:50:24.761 Info: Forest App-Services state changed from mounted to recovering
+2020-05-12 07:50:24.781 Info: Forest App-Services state changed from recovering to open
+2020-05-12 07:50:24.797 Info: Forest Schemas state changed from unmounted to mounted
+2020-05-12 07:50:24.797 Notice: Mounted forest Schemas locally on /var/opt/MarkLogic/Forests/Schemas read write
+2020-05-12 07:50:24.799 Info: Forest Security state changed from unmounted to mounted
+2020-05-12 07:50:24.799 Notice: Mounted forest Security locally on /var/opt/MarkLogic/Forests/Security read write
+2020-05-12 07:50:24.802 Info: Forest Schemas state changed from mounted to recovering
+2020-05-12 07:50:24.803 Info: Forest Schemas state changed from recovering to open
+2020-05-12 07:50:24.804 Info: Forest Modules state changed from unmounted to mounted
+2020-05-12 07:50:24.804 Notice: Mounted forest Modules locally on /var/opt/MarkLogic/Forests/Modules read write
+2020-05-12 07:50:24.805 Info: Forest REFP-MODULES-1 state changed from unmounted to mounted
+2020-05-12 07:50:24.805 Notice: Mounted forest REFP-MODULES-1 locally on /var/opt/MarkLogic/Forests/REFP-MODULES-1 read write
+2020-05-12 07:50:24.810 Info: Forest REFP-FINAL-TRIGGERS-1 state changed from unmounted to mounted
+2020-05-12 07:50:24.810 Notice: Mounted forest REFP-FINAL-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1 read write
+2020-05-12 07:50:24.812 Info: Forest Modules state changed from mounted to recovering
+2020-05-12 07:50:24.812 Info: Forest REFP-JOBS-1 state changed from unmounted to mounted
+2020-05-12 07:50:24.812 Notice: Mounted forest REFP-JOBS-1 locally on /var/opt/MarkLogic/Forests/REFP-JOBS-1 read write
+2020-05-12 07:50:24.816 Info: Forest Modules state changed from recovering to open
+2020-05-12 07:50:24.821 Info: Forest Security state changed from mounted to recovering
+2020-05-12 07:50:24.837 Info: Forest Security state changed from recovering to open
+2020-05-12 07:50:24.841 Info: Forest REFP-FINAL-TRIGGERS-1 state changed from mounted to recovering
+2020-05-12 07:50:24.843 Info: Forest REFP-MODULES-1 state changed from mounted to recovering
+2020-05-12 07:50:24.846 Info: Forest REFP-FINAL-TRIGGERS-1 state changed from recovering to open
+2020-05-12 07:50:24.855 Info: Forest Meters state changed from mounted to recovering
+2020-05-12 07:50:24.873 Info: Forest REFP-STAGING-SCHEMAS-1 state changed from unmounted to mounted
+2020-05-12 07:50:24.873 Notice: Mounted forest REFP-STAGING-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1 read write
+2020-05-12 07:50:24.875 Info: Forest REFP-STAGING-TRIGGERS-1 state changed from unmounted to mounted
+2020-05-12 07:50:24.905 Notice: Mounted forest REFP-STAGING-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1 read write
+2020-05-12 07:50:24.906 Info: Forest Fab state changed from unmounted to mounted
+2020-05-12 07:50:24.906 Notice: Mounted forest Fab locally on /var/opt/MarkLogic/Forests/Fab read write
+2020-05-12 07:50:24.907 Info: Forest Extensions state changed from unmounted to mounted
+2020-05-12 07:50:24.907 Info: Forest REFP-FINAL-SCHEMAS-1 state changed from unmounted to mounted
+2020-05-12 07:50:24.907 Notice: Mounted forest Extensions locally on /var/opt/MarkLogic/Forests/Extensions read write
+2020-05-12 07:50:24.907 Notice: Mounted forest REFP-FINAL-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1 read write
+2020-05-12 07:50:24.912 Info: Forest Fab state changed from mounted to recovering
+2020-05-12 07:50:24.912 Info: Forest Extensions state changed from mounted to recovering
+2020-05-12 07:50:24.914 Info: Forest Fab state changed from recovering to open
+2020-05-12 07:50:24.916 Info: Forest Extensions state changed from recovering to open
+2020-05-12 07:50:24.928 Info: Forest REFP-MODULES-1 state changed from recovering to open
+2020-05-12 07:50:24.941 Info: Forest REFP-STAGING-SCHEMAS-1 state changed from mounted to recovering
+2020-05-12 07:50:24.944 Info: Forest Documents state changed from unmounted to mounted
+2020-05-12 07:50:24.944 Notice: Mounted forest Documents locally on /var/opt/MarkLogic/Forests/Documents read write
+2020-05-12 07:50:24.946 Info: Forest REFP-STAGING-1 state changed from unmounted to mounted
+2020-05-12 07:50:24.946 Notice: Mounted forest REFP-STAGING-1 locally on /var/opt/MarkLogic/Forests/REFP-STAGING-1 read write
+2020-05-12 07:50:24.947 Info: Forest REFP-FINAL-1 state changed from unmounted to mounted
+2020-05-12 07:50:24.947 Notice: Mounted forest REFP-FINAL-1 locally on /var/opt/MarkLogic/Forests/REFP-FINAL-1 read write
+2020-05-12 07:50:24.947 Info: Forest REFP-STAGING-TRIGGERS-1 state changed from mounted to recovering
+2020-05-12 07:50:24.949 Info: Forest Documents state changed from mounted to recovering
+2020-05-12 07:50:24.951 Info: Forest Documents state changed from recovering to open
+2020-05-12 07:50:24.953 Info: Forest REFP-FINAL-SCHEMAS-1 state changed from mounted to recovering
+2020-05-12 07:50:24.963 Info: Forest REFP-STAGING-TRIGGERS-1 state changed from recovering to open
+2020-05-12 07:50:24.967 Info: Forest REFP-STAGING-SCHEMAS-1 state changed from recovering to open
+2020-05-12 07:50:24.973 Info: Forest REFP-FINAL-SCHEMAS-1 state changed from recovering to open
+2020-05-12 07:50:24.999 Info: Forest REFP-STAGING-1 state changed from mounted to recovering
+2020-05-12 07:50:25.001 Info: Forest REFP-JOBS-1 state changed from mounted to recovering
+2020-05-12 07:50:25.019 Info: Forest REFP-STAGING-1 state changed from recovering to open
+2020-05-12 07:50:25.035 Info: Forest REFP-FINAL-1 state changed from mounted to recovering
+2020-05-12 07:50:25.053 Info: Forest REFP-JOBS-1 state changed from recovering to open
+2020-05-12 07:50:25.067 Info: Forest REFP-FINAL-1 state changed from recovering to open
+2020-05-12 07:50:25.215 Info: Database REFP-MODULES is online with 1 forest
+2020-05-12 07:50:25.217 Info: Database Modules is online with 1 forest
+2020-05-12 07:50:25.218 Info: Database Security is online with 1 forest
+2020-05-12 07:50:25.219 Info: Database Last-Login is online with 1 forest
+2020-05-12 07:50:25.220 Info: Database REFP-FINAL-SCHEMAS is online with 1 forest
+2020-05-12 07:50:25.222 Info: Database Extensions is online with 1 forest
+2020-05-12 07:50:25.226 Info: Database Schemas is online with 1 forest
+2020-05-12 07:50:25.230 Info: Database REFP-STAGING is online with 1 forest
+2020-05-12 07:50:25.234 Info: Database REFP-STAGING-SCHEMAS is online with 1 forest
+2020-05-12 07:50:25.236 Info: Database REFP-FINAL is online with 1 forest
+2020-05-12 07:50:25.237 Info: Database REFP-STAGING-TRIGGERS is online with 1 forest
+2020-05-12 07:50:25.239 Info: Database Documents is online with 1 forest
+2020-05-12 07:50:25.240 Info: Database Fab is online with 1 forest
+2020-05-12 07:50:25.242 Info: Database App-Services is online with 1 forest
+2020-05-12 07:50:25.244 Info: Database REFP-FINAL-TRIGGERS is online with 1 forest
+2020-05-12 07:50:25.248 Info: Database Triggers is online with 1 forest
+2020-05-12 07:50:25.249 Info: Database REFP-JOBS is online with 1 forest
+2020-05-12 07:50:28.185 Info: Forest Meters state changed from recovering to open
+2020-05-12 07:50:28.215 Info: Linux Huge Pages: detected 0, recommend 1280 to 3652
+2020-05-12 07:50:28.216 Info: Database Meters is online with 1 forest
+2020-05-12 07:55:00.145 Info: Memory 3% phys=7973 size=536(6%) rss=300(3%) anon=239(2%) file=14(0%) forest=866(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 08:08:01.563 Info: Merging 4 MB from /var/opt/MarkLogic/Forests/Meters/00000038 and /var/opt/MarkLogic/Forests/Meters/0000003f to /var/opt/MarkLogic/Forests/Meters/00000041, timestamp=15892702802253890
+2020-05-12 08:08:02.609 Info: Merged 5 MB in 1 sec at 5 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000041
+2020-05-12 08:08:02.615 Info: Merging 5 MB from /var/opt/MarkLogic/Forests/Meters/00000041 to /var/opt/MarkLogic/Forests/Meters/00000042, timestamp=15892702802253890
+2020-05-12 08:08:02.783 Info: Merged 5 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000042
+2020-05-12 08:08:05.178 Info: Deleted 149 MB at 17619 MB/sec /var/opt/MarkLogic/Forests/Meters/00000038
+2020-05-12 08:08:05.182 Info: Deleted 12 MB at 3860 MB/sec /var/opt/MarkLogic/Forests/Meters/0000003f
+2020-05-12 08:08:05.185 Info: Deleted 5 MB at 1700 MB/sec /var/opt/MarkLogic/Forests/Meters/00000041
+2020-05-12 08:25:00.190 Info: Memory 4% phys=7973 size=572(7%) rss=334(4%) anon=276(3%) file=12(0%) forest=864(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 08:53:00.207 Info: Memory 26% phys=7973 size=2334(29%) rss=2096(26%) anon=2023(25%) file=27(0%) forest=1756(22%) cache=2560(32%) registry=1(0%)
+2020-05-12 08:53:06.829 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003b
+2020-05-12 08:53:07.221 Info: Saved 18 MB at 46 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003b
+2020-05-12 08:53:07.247 Info: Merging 43 MB from /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003a and /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003b to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003d, timestamp=15892729869249750
+2020-05-12 08:53:08.782 Info: Merged 37 MB in 2 sec at 24 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003d
+2020-05-12 08:53:11.126 Info: Deleted 27 MB at 4674 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003a
+2020-05-12 08:53:11.134 Info: Deleted 18 MB at 2365 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003b
+2020-05-12 08:54:30.746 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ba
+2020-05-12 08:54:30.842 Info: Saved 11 MB at 115 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ba
+2020-05-12 08:54:40.741 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003c
+2020-05-12 08:54:40.765 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000af
+2020-05-12 08:54:40.883 Info: Saved 10 MB at 71 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003c
+2020-05-12 08:54:40.955 Info: Saved 12 MB at 63 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000af
+2020-05-12 08:54:40.959 Info: Merging 16 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000af and /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000ae to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b0, timestamp=15892730401922750
+2020-05-12 08:54:41.236 Info: Merged 9 MB at 32 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b0
+2020-05-12 08:54:44.131 Info: Deleted 5 MB at 790 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000ae
+2020-05-12 08:54:44.137 Info: Deleted 12 MB at 1981 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000af
+2020-05-12 08:55:00.252 Info: Memory 22% phys=7973 size=2054(25%) rss=1824(22%) anon=1742(21%) file=28(0%) forest=887(11%) cache=2562(32%) registry=1(0%)
+2020-05-12 08:55:14.838 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003e
+2020-05-12 08:55:15.201 Info: Saved 18 MB at 50 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003e
+2020-05-12 08:55:15.223 Info: Merging 230 MB from /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000032, /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003d, /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003e, and /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003c to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000040, timestamp=15892731147606290
+2020-05-12 08:55:21.748 Info: Merged 214 MB in 7 sec at 33 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000040
+2020-05-12 08:55:24.181 Info: Deleted 167 MB at 16084 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000032
+2020-05-12 08:55:24.184 Info: Deleted 37 MB at 11409 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003d
+2020-05-12 08:55:24.189 Info: Deleted 10 MB at 2298 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003c
+2020-05-12 08:55:24.193 Info: Deleted 18 MB at 4021 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003e
+2020-05-12 08:56:00.154 Info: Memory 30% phys=7973 size=2675(33%) rss=2420(30%) anon=2340(29%) file=52(0%) forest=2917(36%) cache=2562(32%) registry=1(0%)
+2020-05-12 08:56:41.604 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bb
+2020-05-12 08:56:41.694 Info: Saved 11 MB at 122 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bb
+2020-05-12 08:56:41.700 Info: Merging 25 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ba, /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bb, and /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000b9 to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bc, timestamp=15892731602861860
+2020-05-12 08:56:41.939 Info: Merged 8 MB at 33 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bc
+2020-05-12 08:56:44.244 Info: Deleted 3 MB at 769 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000b9
+2020-05-12 08:56:44.249 Info: Deleted 11 MB at 2651 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ba
+2020-05-12 08:56:44.253 Info: Deleted 11 MB at 2592 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bb
+2020-05-12 08:56:49.576 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003f
+2020-05-12 08:56:49.599 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b1
+2020-05-12 08:56:49.712 Info: Saved 10 MB at 73 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003f
+2020-05-12 08:56:49.788 Info: Saved 12 MB at 63 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b1
+2020-05-12 08:56:49.792 Info: Merging 21 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b1 and /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b0 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b2, timestamp=15892731602861860
+2020-05-12 08:56:50.100 Info: Merged 12 MB at 39 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b2
+2020-05-12 08:56:53.256 Info: Deleted 9 MB at 1546 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b0
+2020-05-12 08:56:53.263 Info: Deleted 12 MB at 1923 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b1
+2020-05-12 08:57:00.218 Info: Memory 25% phys=7973 size=2269(28%) rss=2035(25%) anon=1955(24%) file=30(0%) forest=1245(15%) cache=2560(32%) registry=1(0%)
+2020-05-12 08:57:00.636 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000118
+2020-05-12 08:57:00.702 Info: Saved 8 MB at 122 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000118
+2020-05-12 08:57:00.706 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000118 and /var/opt/MarkLogic/Forests/App-Services/00000117 to /var/opt/MarkLogic/Forests/App-Services/00000119, timestamp=15892731602861860
+2020-05-12 08:57:00.734 Info: Merged 1 MB at 35 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000119
+2020-05-12 08:57:03.132 Info: Deleted 1 MB at 383 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000117
+2020-05-12 08:57:03.136 Info: Deleted 8 MB at 1902 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000118
+2020-05-12 09:01:00.252 Info: Memory 13% phys=7973 size=1334(16%) rss=1108(13%) anon=1028(12%) file=23(0%) forest=879(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:02:36.508 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000011a
+2020-05-12 09:02:36.582 Info: Saved 8 MB at 108 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000011a
+2020-05-12 09:02:36.587 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/0000011a and /var/opt/MarkLogic/Forests/App-Services/00000119 to /var/opt/MarkLogic/Forests/App-Services/0000011b, timestamp=15892735201789330
+2020-05-12 09:02:36.615 Info: Merged 1 MB at 36 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000011b
+2020-05-12 09:02:39.016 Info: Deleted 1 MB at 374 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000119
+2020-05-12 09:02:39.020 Info: Deleted 8 MB at 1940 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000011a
+2020-05-12 09:03:01.586 Info: Merging 5 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bc to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bd, timestamp=15892735801562050
+2020-05-12 09:03:01.588 Info: Merging 8 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b2 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b3, timestamp=15892735801562050
+2020-05-12 09:03:01.738 Info: Merged 6 MB at 39 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bd
+2020-05-12 09:03:01.843 Info: Merged 9 MB at 35 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b3
+2020-05-12 09:03:04.214 Info: Deleted 8 MB at 1932 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bc
+2020-05-12 09:03:04.218 Info: Deleted 12 MB at 3015 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b2
+2020-05-12 09:04:00.187 Info: Memory 44% phys=7973 size=3785(47%) rss=3523(44%) anon=3442(43%) file=59(0%) forest=2787(34%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:04:40.353 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000041
+2020-05-12 09:04:40.842 Info: Saved 18 MB at 37 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000041
+2020-05-12 09:04:40.888 Info: Merging 27 MB from /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000041 and /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003f to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000043, timestamp=15892736800786410
+2020-05-12 09:04:41.438 Info: Merged 13 MB in 1 sec at 24 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000043
+2020-05-12 09:04:44.152 Info: Deleted 10 MB at 1200 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000003f
+2020-05-12 09:04:44.158 Info: Deleted 18 MB at 3415 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000041
+2020-05-12 09:05:00.282 Info: Memory 58% phys=7973 size=4915(61%) rss=4649(58%) anon=4571(57%) file=60(0%) forest=3687(46%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:05:08.638 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b1
+2020-05-12 09:05:08.702 Info: Saved 8 MB at 125 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b1
+2020-05-12 09:05:08.705 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b1 and /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b0 to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b2, timestamp=15892737003261150
+2020-05-12 09:05:08.730 Info: Merged 1 MB at 40 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b2
+2020-05-12 09:05:09.600 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b1
+2020-05-12 09:05:09.669 Info: Saved 8 MB at 115 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b1
+2020-05-12 09:05:09.673 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b1 and /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b0 to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b2, timestamp=15892737003261150
+2020-05-12 09:05:09.698 Info: Merged 1 MB at 40 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b2
+2020-05-12 09:05:11.195 Info: Deleted 1 MB at 197 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b0
+2020-05-12 09:05:11.199 Info: Deleted 8 MB at 2217 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b1
+2020-05-12 09:05:11.201 Info: Deleted 1 MB at 553 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b0
+2020-05-12 09:05:11.204 Info: Deleted 8 MB at 2349 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b1
+2020-05-12 09:05:11.530 Info: Saving /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000095
+2020-05-12 09:05:11.703 Info: Saved 17 MB at 98 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000095
+2020-05-12 09:05:11.707 Info: Merging 27 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000095 and /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000094 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000096, timestamp=15892737003261150
+2020-05-12 09:05:11.940 Info: Merged 14 MB at 60 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000096
+2020-05-12 09:05:14.125 Info: Deleted 10 MB at 3167 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000094
+2020-05-12 09:05:14.129 Info: Deleted 17 MB at 4025 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000095
+2020-05-12 09:06:00.123 Info: Memory 55% phys=7973 size=4662(58%) rss=4419(55%) anon=4341(54%) file=38(0%) forest=2541(31%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:06:01.582 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000011b to /var/opt/MarkLogic/Forests/App-Services/0000011c, timestamp=15892737601667810
+2020-05-12 09:06:01.616 Info: Merged 1 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000011c
+2020-05-12 09:06:04.064 Info: Deleted 1 MB at 415 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000011b
+2020-05-12 09:06:04.695 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000be
+2020-05-12 09:06:04.882 Info: Saved 11 MB at 59 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000be
+2020-05-12 09:06:04.886 Info: Merging 17 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000be and /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bd to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bf, timestamp=15892737601667810
+2020-05-12 09:06:05.180 Info: Merged 6 MB at 20 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bf
+2020-05-12 09:06:07.246 Info: Deleted 6 MB at 1590 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bd
+2020-05-12 09:06:07.250 Info: Deleted 11 MB at 2378 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000be
+2020-05-12 09:06:13.681 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000042
+2020-05-12 09:06:13.699 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b4
+2020-05-12 09:06:13.797 Info: Saved 10 MB at 86 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000042
+2020-05-12 09:06:13.802 Info: Merging 22 MB from /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000043 and /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000042 to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000044, timestamp=15892737601667810
+2020-05-12 09:06:13.933 Info: Saved 12 MB at 51 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b4
+2020-05-12 09:06:13.937 Info: Merging 20 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b4 and /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b3 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b5, timestamp=15892737601667810
+2020-05-12 09:06:14.174 Info: Merged 14 MB at 38 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000044
+2020-05-12 09:06:14.274 Info: Merged 9 MB at 27 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b5
+2020-05-12 09:06:17.166 Info: Deleted 13 MB at 3392 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000043
+2020-05-12 09:06:17.171 Info: Deleted 10 MB at 1900 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000042
+2020-05-12 09:06:17.176 Info: Deleted 9 MB at 2002 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b3
+2020-05-12 09:06:17.182 Info: Deleted 12 MB at 2038 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b4
+2020-05-12 09:07:00.301 Info: Memory 49% phys=7973 size=4198(52%) rss=3976(49%) anon=3899(48%) file=15(0%) forest=867(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:09:00.166 Info: Memory 45% phys=7973 size=3833(48%) rss=3604(45%) anon=3527(44%) file=23(0%) forest=1233(15%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:10:00.154 Info: Memory 28% phys=7973 size=2491(31%) rss=2263(28%) anon=2185(27%) file=23(0%) forest=1233(15%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:10:27.637 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000011d
+2020-05-12 09:10:27.713 Info: Saved 8 MB at 106 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000011d
+2020-05-12 09:10:27.717 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/0000011d and /var/opt/MarkLogic/Forests/App-Services/0000011c to /var/opt/MarkLogic/Forests/App-Services/0000011e, timestamp=15892740001967540
+2020-05-12 09:10:27.742 Info: Merged 1 MB at 40 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000011e
+2020-05-12 09:10:30.148 Info: Deleted 1 MB at 432 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000011c
+2020-05-12 09:10:30.152 Info: Deleted 8 MB at 1886 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000011d
+2020-05-12 09:11:00.195 Info: Memory 20% phys=7973 size=1876(23%) rss=1655(20%) anon=1577(19%) file=15(0%) forest=867(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:12:32.613 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000011f
+2020-05-12 09:12:32.678 Info: Saved 8 MB at 124 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000011f
+2020-05-12 09:12:32.682 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/0000011f and /var/opt/MarkLogic/Forests/App-Services/0000011e to /var/opt/MarkLogic/Forests/App-Services/00000120, timestamp=15892741201055920
+2020-05-12 09:12:32.731 Info: Merged 1 MB at 20 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000120
+2020-05-12 09:12:35.173 Info: Deleted 1 MB at 433 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000011e
+2020-05-12 09:12:35.177 Info: Deleted 8 MB at 1768 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000011f
+2020-05-12 09:14:35.619 Info: Merging 7 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000096 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000098, timestamp=15892742752407450
+2020-05-12 09:14:35.632 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b2 to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b3, timestamp=15892742752407450
+2020-05-12 09:14:35.638 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b2 to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b3, timestamp=15892742752407450
+2020-05-12 09:14:35.643 Info: Merging 2 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bf to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c0, timestamp=15892742752407450
+2020-05-12 09:14:35.647 Info: Merging 4 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b5 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b6, timestamp=15892742752407450
+2020-05-12 09:14:35.763 Info: Merged 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b3
+2020-05-12 09:14:35.764 Info: Merged 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b3
+2020-05-12 09:14:35.966 Info: Merged 10 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000098
+2020-05-12 09:14:36.073 Info: Merged 3 MB at 7 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c0
+2020-05-12 09:14:36.258 Info: Merged 5 MB in 1 sec at 8 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b6
+2020-05-12 09:14:36.264 Info: Merging 4 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b6 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b7, timestamp=15892742760127670
+2020-05-12 09:14:36.449 Info: Merged 5 MB at 27 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b7
+2020-05-12 09:14:38.237 Info: Deleted 1 MB at 572 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b2
+2020-05-12 09:14:38.240 Info: Deleted 6 MB at 2587 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000bf
+2020-05-12 09:14:38.244 Info: Deleted 9 MB at 2158 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b5
+2020-05-12 09:14:38.246 Info: Deleted 1 MB at 616 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b2
+2020-05-12 09:14:38.247 Info: Deleted 14 MB at 8202 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000096
+2020-05-12 09:14:38.251 Info: Deleted 5 MB at 1459 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b6
+2020-05-12 09:15:00.300 Info: Memory 45% phys=7973 size=3854(48%) rss=3652(45%) anon=3511(44%) file=59(0%) forest=3143(39%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:15:21.577 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000121
+2020-05-12 09:15:21.660 Info: Saved 8 MB at 97 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000121
+2020-05-12 09:15:21.664 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000121 and /var/opt/MarkLogic/Forests/App-Services/00000120 to /var/opt/MarkLogic/Forests/App-Services/00000122, timestamp=15892743143873130
+2020-05-12 09:15:21.695 Info: Merged 1 MB at 32 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000122
+2020-05-12 09:15:24.146 Info: Deleted 1 MB at 782 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000120
+2020-05-12 09:15:24.149 Info: Deleted 8 MB at 2697 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000121
+2020-05-12 09:16:00.225 Info: Memory 50% phys=7973 size=4289(53%) rss=4023(50%) anon=3946(49%) file=59(0%) forest=3255(40%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:16:11.684 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b4
+2020-05-12 09:16:11.754 Info: Saved 8 MB at 114 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b4
+2020-05-12 09:16:11.758 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b4 and /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b3 to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b5, timestamp=15892743602700290
+2020-05-12 09:16:11.790 Info: Merged 1 MB at 32 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b5
+2020-05-12 09:16:12.589 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b4
+2020-05-12 09:16:12.669 Info: Saved 8 MB at 99 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b4
+2020-05-12 09:16:12.674 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b4 and /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b3 to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b5, timestamp=15892743602700290
+2020-05-12 09:16:12.714 Info: Merged 1 MB at 25 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b5
+2020-05-12 09:16:13.690 Info: Saving /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000097
+2020-05-12 09:16:13.891 Info: Saved 17 MB at 85 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000097
+2020-05-12 09:16:13.895 Info: Merging 27 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000097 and /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000098 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000099, timestamp=15892743724059980
+2020-05-12 09:16:14.033 Info: Deleted 1 MB at 185 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b3
+2020-05-12 09:16:14.036 Info: Deleted 8 MB at 2333 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b4
+2020-05-12 09:16:14.038 Info: Deleted 1 MB at 569 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b3
+2020-05-12 09:16:14.042 Info: Deleted 8 MB at 2197 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b4
+2020-05-12 09:16:14.105 Info: Merged 14 MB at 67 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000099
+2020-05-12 09:16:14.597 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c1
+2020-05-12 09:16:14.599 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b8
+2020-05-12 09:16:14.683 Info: Saved 8 MB at 93 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c1
+2020-05-12 09:16:14.684 Info: Saved 8 MB at 94 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b8
+2020-05-12 09:16:14.688 Info: Merging 12 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b8 and /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b7 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b9, timestamp=15892743724059980
+2020-05-12 09:16:14.688 Info: Merging 11 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c1 and /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c0 to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c2, timestamp=15892743724059980
+2020-05-12 09:16:14.792 Info: Merged 3 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c2
+2020-05-12 09:16:14.891 Info: Merged 5 MB at 25 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b9
+2020-05-12 09:16:17.079 Info: Deleted 10 MB at 3546 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000098
+2020-05-12 09:16:17.083 Info: Deleted 17 MB at 4326 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000097
+2020-05-12 09:16:17.085 Info: Deleted 3 MB at 1229 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c0
+2020-05-12 09:16:17.089 Info: Deleted 8 MB at 2028 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c1
+2020-05-12 09:16:17.093 Info: Deleted 5 MB at 1346 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b7
+2020-05-12 09:16:17.098 Info: Deleted 8 MB at 1817 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b8
+2020-05-12 09:16:44.552 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000045
+2020-05-12 09:16:44.637 Info: Saved 8 MB at 95 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000045
+2020-05-12 09:16:44.641 Info: Merging 21 MB from /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000044 and /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000045 to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000046, timestamp=15892743724059980
+2020-05-12 09:16:44.867 Info: Merged 15 MB at 66 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000046
+2020-05-12 09:16:47.219 Info: Deleted 14 MB at 1287 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000044
+2020-05-12 09:16:47.224 Info: Deleted 8 MB at 1702 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000045
+2020-05-12 09:17:00.090 Info: Memory 47% phys=7973 size=4053(50%) rss=3823(47%) anon=3747(46%) file=22(0%) forest=1233(15%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:19:44.534 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000123
+2020-05-12 09:19:44.601 Info: Saved 8 MB at 120 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000123
+2020-05-12 09:19:44.605 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000123 and /var/opt/MarkLogic/Forests/App-Services/00000122 to /var/opt/MarkLogic/Forests/App-Services/00000124, timestamp=15892745402554970
+2020-05-12 09:19:44.629 Info: Merged 1 MB at 41 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000124
+2020-05-12 09:19:47.031 Info: Deleted 1 MB at 425 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000122
+2020-05-12 09:19:47.037 Info: Deleted 8 MB at 1367 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000123
+2020-05-12 09:20:00.284 Info: Memory 28% phys=7973 size=2491(31%) rss=2270(28%) anon=2193(27%) file=15(0%) forest=867(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:21:00.084 Info: Memory 48% phys=7973 size=4118(51%) rss=3859(48%) anon=3782(47%) file=52(0%) forest=2777(34%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:21:54.728 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000124 to /var/opt/MarkLogic/Forests/App-Services/00000125, timestamp=15892747138318590
+2020-05-12 09:21:54.752 Info: Merged 1 MB at 41 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000125
+2020-05-12 09:21:57.161 Info: Deleted 1 MB at 184 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000124
+2020-05-12 09:22:00.279 Info: Memory 54% phys=7973 size=4652(58%) rss=4384(54%) anon=4309(54%) file=60(0%) forest=3223(40%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:22:09.622 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000047
+2020-05-12 09:22:10.047 Info: Saved 18 MB at 42 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000047
+2020-05-12 09:22:10.071 Info: Merging 32 MB from /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000047 and /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000046 to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000049, timestamp=15892747290305190
+2020-05-12 09:22:10.972 Info: Merged 25 MB in 1 sec at 28 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000049
+2020-05-12 09:22:13.212 Info: Deleted 15 MB at 1525 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000046
+2020-05-12 09:22:13.221 Info: Deleted 18 MB at 2073 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000047
+2020-05-12 09:22:25.669 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b6
+2020-05-12 09:22:25.731 Info: Saved 8 MB at 128 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b6
+2020-05-12 09:22:25.735 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b6 and /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b5 to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b7, timestamp=15892747323507740
+2020-05-12 09:22:25.763 Info: Merged 1 MB at 35 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b7
+2020-05-12 09:22:26.580 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b6
+2020-05-12 09:22:26.657 Info: Saved 8 MB at 105 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b6
+2020-05-12 09:22:26.660 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b6 and /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b5 to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b7, timestamp=15892747323507740
+2020-05-12 09:22:26.694 Info: Merged 1 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b7
+2020-05-12 09:22:27.758 Info: Saving /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009a
+2020-05-12 09:22:27.971 Info: Saved 17 MB at 80 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009a
+2020-05-12 09:22:27.976 Info: Merging 31 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009a and /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000099 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009b, timestamp=15892747323507740
+2020-05-12 09:22:28.193 Info: Merged 18 MB at 83 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009b
+2020-05-12 09:22:28.237 Info: Deleted 1 MB at 488 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b5
+2020-05-12 09:22:28.241 Info: Deleted 8 MB at 1957 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b6
+2020-05-12 09:22:28.243 Info: Deleted 1 MB at 566 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b5
+2020-05-12 09:22:28.247 Info: Deleted 8 MB at 2231 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b6
+2020-05-12 09:22:28.249 Info: Deleted 14 MB at 7110 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/00000099
+2020-05-12 09:22:28.252 Info: Deleted 17 MB at 4544 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009a
+2020-05-12 09:23:00.269 Info: Memory 70% phys=7973 size=5906(74%) rss=5640(70%) anon=5562(69%) file=60(0%) forest=3592(45%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:23:42.597 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000048
+2020-05-12 09:23:42.701 Info: Saved 10 MB at 96 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000048
+2020-05-12 09:23:42.705 Info: Merging 35 MB from /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000049 and /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000048 to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004a, timestamp=15892747803114030
+2020-05-12 09:23:43.120 Info: Merged 27 MB at 65 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004a
+2020-05-12 09:23:45.054 Info: Deleted 25 MB at 6153 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000049
+2020-05-12 09:23:45.058 Info: Deleted 10 MB at 2251 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000048
+2020-05-12 09:24:00.151 Info: Memory 58% phys=7973 size=4893(61%) rss=4634(58%) anon=4557(57%) file=53(0%) forest=3114(39%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:24:01.686 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000125 to /var/opt/MarkLogic/Forests/App-Services/00000126, timestamp=15892748402908000
+2020-05-12 09:24:01.713 Info: Merged 1 MB at 38 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000126
+2020-05-12 09:24:04.035 Info: Deleted 1 MB at 413 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000125
+2020-05-12 09:24:26.562 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b8
+2020-05-12 09:24:26.633 Info: Saved 8 MB at 114 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b8
+2020-05-12 09:24:26.636 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b8 and /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b7 to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b9, timestamp=15892748402908000
+2020-05-12 09:24:26.671 Info: Merged 1 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b9
+2020-05-12 09:24:27.541 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b8
+2020-05-12 09:24:27.615 Info: Saved 8 MB at 108 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b8
+2020-05-12 09:24:27.619 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b8 and /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b7 to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b9, timestamp=15892748402908000
+2020-05-12 09:24:27.657 Info: Merged 1 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b9
+2020-05-12 09:24:28.698 Info: Saving /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009c
+2020-05-12 09:24:28.883 Info: Saved 17 MB at 92 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009c
+2020-05-12 09:24:28.887 Info: Merging 35 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009b and /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009c to /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009d, timestamp=15892748402908000
+2020-05-12 09:24:29.109 Info: Deleted 1 MB at 193 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b7
+2020-05-12 09:24:29.114 Info: Deleted 8 MB at 2000 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b8
+2020-05-12 09:24:29.116 Info: Deleted 1 MB at 437 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b7
+2020-05-12 09:24:29.120 Info: Deleted 8 MB at 1844 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b8
+2020-05-12 09:24:29.150 Info: Merged 23 MB at 88 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009d
+2020-05-12 09:24:29.782 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c3
+2020-05-12 09:24:29.784 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000ba
+2020-05-12 09:24:29.898 Info: Saved 11 MB at 94 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c3
+2020-05-12 09:24:29.968 Info: Saved 12 MB at 65 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000ba
+2020-05-12 09:24:29.972 Info: Merging 17 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000ba and /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b9 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bb, timestamp=15892748402908000
+2020-05-12 09:24:30.235 Info: Merged 9 MB at 34 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bb
+2020-05-12 09:24:32.201 Info: Deleted 18 MB at 4060 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009b
+2020-05-12 09:24:32.206 Info: Deleted 17 MB at 3870 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009c
+2020-05-12 09:24:32.210 Info: Deleted 5 MB at 1108 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000b9
+2020-05-12 09:24:32.216 Info: Deleted 12 MB at 2086 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000ba
+2020-05-12 09:25:00.255 Info: Memory 52% phys=7973 size=4405(55%) rss=4179(52%) anon=4098(51%) file=23(0%) forest=879(11%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:25:01.709 Info: Merging 17 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009d to /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009e, timestamp=15892749003005980
+2020-05-12 09:25:01.725 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b9 to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000ba, timestamp=15892749003005980
+2020-05-12 09:25:01.737 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b9 to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000ba, timestamp=15892749003005980
+2020-05-12 09:25:01.741 Info: Merging 2 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c2 to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c4, timestamp=15892749003005980
+2020-05-12 09:25:01.769 Info: Merged 1 MB at 23 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000ba
+2020-05-12 09:25:01.779 Info: Merged 1 MB at 24 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000ba
+2020-05-12 09:25:01.865 Info: Merged 3 MB at 24 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c4
+2020-05-12 09:25:01.940 Info: Merged 18 MB at 78 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009e
+2020-05-12 09:25:04.061 Info: Deleted 1 MB at 416 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000b9
+2020-05-12 09:25:04.064 Info: Deleted 1 MB at 500 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000b9
+2020-05-12 09:25:04.067 Info: Deleted 3 MB at 1031 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c2
+2020-05-12 09:25:04.069 Info: Deleted 23 MB at 10973 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009d
+2020-05-12 09:26:00.214 Info: Memory 56% phys=7973 size=4708(59%) rss=4473(56%) anon=4393(55%) file=31(0%) forest=1358(17%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:27:00.200 Info: Memory 52% phys=7973 size=4437(55%) rss=4203(52%) anon=4122(51%) file=31(0%) forest=1358(17%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:27:01.570 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000126 to /var/opt/MarkLogic/Forests/App-Services/00000127, timestamp=15892750202449130
+2020-05-12 09:27:01.605 Info: Merged 1 MB at 28 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000127
+2020-05-12 09:27:04.096 Info: Deleted 1 MB at 353 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000126
+2020-05-12 09:27:28.704 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004b
+2020-05-12 09:27:28.780 Info: Saved 8 MB at 106 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004b
+2020-05-12 09:27:28.784 Info: Merging 34 MB from /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004a and /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004b to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004c, timestamp=15892750202449130
+2020-05-12 09:27:29.159 Info: Merged 27 MB at 72 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004c
+2020-05-12 09:27:32.159 Info: Deleted 27 MB at 7152 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004a
+2020-05-12 09:27:32.164 Info: Deleted 8 MB at 1763 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004b
+2020-05-12 09:28:00.203 Info: Memory 44% phys=7973 size=3803(47%) rss=3581(44%) anon=3496(43%) file=23(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:28:01.728 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000127 to /var/opt/MarkLogic/Forests/App-Services/00000128, timestamp=15892750802495170
+2020-05-12 09:28:01.759 Info: Merged 1 MB at 32 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000128
+2020-05-12 09:28:04.064 Info: Deleted 1 MB at 459 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000127
+2020-05-12 09:29:00.182 Info: Memory 53% phys=7973 size=4499(56%) rss=4235(53%) anon=4154(52%) file=61(0%) forest=2790(34%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:29:01.591 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000128 to /var/opt/MarkLogic/Forests/App-Services/00000129, timestamp=15892751403228030
+2020-05-12 09:29:01.622 Info: Merged 1 MB at 32 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000129
+2020-05-12 09:29:04.250 Info: Deleted 1 MB at 309 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000128
+2020-05-12 09:30:19.701 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bb
+2020-05-12 09:30:19.772 Info: Saved 8 MB at 113 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bb
+2020-05-12 09:30:19.776 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bb and /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000ba to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bc, timestamp=15892752120633190
+2020-05-12 09:30:19.820 Info: Merged 1 MB at 23 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bc
+2020-05-12 09:30:20.710 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bb
+2020-05-12 09:30:20.786 Info: Saved 8 MB at 105 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bb
+2020-05-12 09:30:20.791 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bb and /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000ba to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bc, timestamp=15892752120633190
+2020-05-12 09:30:20.826 Info: Merged 1 MB at 28 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bc
+2020-05-12 09:30:22.180 Info: Deleted 1 MB at 424 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000ba
+2020-05-12 09:30:22.184 Info: Deleted 8 MB at 1909 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bb
+2020-05-12 09:30:22.186 Info: Deleted 1 MB at 531 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000ba
+2020-05-12 09:30:22.190 Info: Deleted 8 MB at 2253 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bb
+2020-05-12 09:30:22.637 Info: Saving /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009f
+2020-05-12 09:30:22.661 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c5
+2020-05-12 09:30:22.755 Info: Saved 8 MB at 85 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c5
+2020-05-12 09:30:22.760 Info: Merging 22 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c3, /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c5, and /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c4 to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c6, timestamp=15892752120633190
+2020-05-12 09:30:22.823 Info: Saved 17 MB at 91 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009f
+2020-05-12 09:30:22.827 Info: Merging 35 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009e and /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009f to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a0, timestamp=15892752120633190
+2020-05-12 09:30:22.963 Info: Merged 6 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c6
+2020-05-12 09:30:23.190 Info: Merged 23 MB at 63 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a0
+2020-05-12 09:30:25.103 Info: Deleted 3 MB at 905 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c4
+2020-05-12 09:30:25.108 Info: Deleted 11 MB at 2542 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c3
+2020-05-12 09:30:25.112 Info: Deleted 8 MB at 1821 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c5
+2020-05-12 09:30:25.114 Info: Deleted 18 MB at 9740 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009e
+2020-05-12 09:30:25.118 Info: Deleted 17 MB at 4610 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/0000009f
+2020-05-12 09:31:00.260 Info: Memory 50% phys=7973 size=4285(53%) rss=4040(50%) anon=3963(49%) file=38(0%) forest=2286(28%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:31:13.544 Info: Merging 17 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a0 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a1, timestamp=15892752732057600
+2020-05-12 09:31:13.552 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bc to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bd, timestamp=15892752732057600
+2020-05-12 09:31:13.563 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bc to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bd, timestamp=15892752732057600
+2020-05-12 09:31:13.590 Info: Merged 1 MB at 27 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bd
+2020-05-12 09:31:13.602 Info: Merged 1 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bd
+2020-05-12 09:31:13.905 Info: Merged 18 MB at 50 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a1
+2020-05-12 09:31:14.908 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004d
+2020-05-12 09:31:15.262 Info: Saved 18 MB at 51 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004d
+2020-05-12 09:31:15.282 Info: Merging 44 MB from /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004c and /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004d to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004f, timestamp=15892752749954660
+2020-05-12 09:31:16.108 Info: Deleted 1 MB at 389 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bc
+2020-05-12 09:31:16.110 Info: Deleted 1 MB at 549 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bc
+2020-05-12 09:31:16.112 Info: Deleted 23 MB at 12118 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a0
+2020-05-12 09:31:16.273 Info: Merged 37 MB in 1 sec at 37 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004f
+2020-05-12 09:31:19.123 Info: Deleted 27 MB at 6430 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004c
+2020-05-12 09:31:19.129 Info: Deleted 18 MB at 3015 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004d
+2020-05-12 09:31:57.657 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000012a
+2020-05-12 09:31:57.722 Info: Saved 8 MB at 122 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000012a
+2020-05-12 09:31:57.726 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/0000012a and /var/opt/MarkLogic/Forests/App-Services/00000129 to /var/opt/MarkLogic/Forests/App-Services/0000012b, timestamp=15892752775879920
+2020-05-12 09:31:57.756 Info: Merged 1 MB at 34 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000012b
+2020-05-12 09:31:59.979 Info: Deleted 1 MB at 377 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000129
+2020-05-12 09:31:59.983 Info: Deleted 8 MB at 1946 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000012a
+2020-05-12 09:32:00.137 Info: Memory 62% phys=7973 size=5207(65%) rss=4962(62%) anon=4884(61%) file=39(0%) forest=2543(31%) cache=2562(32%) registry=1(0%)
+2020-05-12 09:32:40.699 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c7
+2020-05-12 09:32:40.798 Info: Saved 11 MB at 112 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c7
+2020-05-12 09:32:40.802 Info: Merging 16 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c7 and /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c6 to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c8, timestamp=15892753201878470
+2020-05-12 09:32:40.991 Info: Merged 6 MB at 32 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c8
+2020-05-12 09:32:43.184 Info: Deleted 6 MB at 583 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c6
+2020-05-12 09:32:43.201 Info: Deleted 11 MB at 656 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c7
+2020-05-12 09:32:47.590 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004e
+2020-05-12 09:32:47.620 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bc
+2020-05-12 09:32:47.756 Info: Saved 10 MB at 61 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004e
+2020-05-12 09:32:47.877 Info: Saved 12 MB at 47 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bc
+2020-05-12 09:32:47.882 Info: Merging 20 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bc and /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bb to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bd, timestamp=15892753201878470
+2020-05-12 09:32:48.174 Info: Merged 9 MB at 31 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bd
+2020-05-12 09:32:51.024 Info: Deleted 9 MB at 1669 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bb
+2020-05-12 09:32:51.034 Info: Deleted 12 MB at 1317 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bc
+2020-05-12 09:33:00.164 Info: Memory 57% phys=7973 size=4814(60%) rss=4587(57%) anon=4506(56%) file=24(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:33:01.675 Info: Merging 12 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a1 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a2, timestamp=15892753802220630
+2020-05-12 09:33:01.684 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bd to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000be, timestamp=15892753802220630
+2020-05-12 09:33:01.694 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bd to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000be, timestamp=15892753802220630
+2020-05-12 09:33:01.721 Info: Merged 1 MB at 28 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000be
+2020-05-12 09:33:01.728 Info: Merged 1 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000be
+2020-05-12 09:33:01.848 Info: Merged 15 MB at 87 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a2
+2020-05-12 09:33:04.227 Info: Deleted 1 MB at 440 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bd
+2020-05-12 09:33:04.229 Info: Deleted 1 MB at 597 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bd
+2020-05-12 09:33:04.231 Info: Deleted 18 MB at 9815 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a1
+2020-05-12 09:34:00.294 Info: Memory 51% phys=7973 size=4332(54%) rss=4104(51%) anon=4024(50%) file=24(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:35:00.187 Info: Memory 43% phys=7973 size=3662(45%) rss=3434(43%) anon=3354(42%) file=24(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:36:00.136 Info: Memory 38% phys=7973 size=3322(41%) rss=3095(38%) anon=3014(37%) file=24(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:37:00.227 Info: Memory 26% phys=7973 size=2336(29%) rss=2109(26%) anon=2028(25%) file=24(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:39:01.643 Info: Merging 7 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a2 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a3, timestamp=15892757401059310
+2020-05-12 09:39:01.658 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000be to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bf, timestamp=15892757401059310
+2020-05-12 09:39:01.668 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000be to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bf, timestamp=15892757401059310
+2020-05-12 09:39:01.695 Info: Merged 1 MB at 27 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bf
+2020-05-12 09:39:01.703 Info: Merged 1 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bf
+2020-05-12 09:39:01.757 Info: Merged 10 MB at 87 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a3
+2020-05-12 09:39:04.151 Info: Deleted 1 MB at 385 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000be
+2020-05-12 09:39:04.153 Info: Deleted 1 MB at 506 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000be
+2020-05-12 09:39:04.156 Info: Deleted 15 MB at 5476 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a2
+2020-05-12 09:41:00.083 Info: Memory 22% phys=7973 size=2003(25%) rss=1776(22%) anon=1695(21%) file=24(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:42:00.193 Info: Memory 18% phys=7973 size=1737(21%) rss=1510(18%) anon=1429(17%) file=24(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 09:42:01.521 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/0000012b to /var/opt/MarkLogic/Forests/App-Services/0000012c, timestamp=15892759202400930
+2020-05-12 09:42:01.545 Info: Merging 2 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c8 to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c9, timestamp=15892759202400930
+2020-05-12 09:42:01.547 Info: Merging 4 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bd to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000be, timestamp=15892759202400930
+2020-05-12 09:42:01.557 Info: Merged 1 MB at 28 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000012c
+2020-05-12 09:42:01.702 Info: Merged 3 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c9
+2020-05-12 09:42:01.808 Info: Merged 5 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000be
+2020-05-12 09:42:01.814 Info: Merging 5 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000be to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bf, timestamp=15892759202400930
+2020-05-12 09:42:02.062 Info: Merged 5 MB at 20 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bf
+2020-05-12 09:42:04.249 Info: Deleted 1 MB at 252 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000012b
+2020-05-12 09:42:04.254 Info: Deleted 6 MB at 1334 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c8
+2020-05-12 09:42:04.260 Info: Deleted 9 MB at 1557 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bd
+2020-05-12 09:42:04.264 Info: Deleted 5 MB at 1166 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000be
+2020-05-12 10:12:00.203 Info: Memory 18% phys=7973 size=1695(21%) rss=1469(18%) anon=1388(17%) file=23(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 10:32:42.589 Info: Reindexed range-indexes 10 fragments at 56 fragments/sec on forest REFP-FINAL-1
+2020-05-12 10:32:49.735 Info: Saving /var/opt/MarkLogic/Forests/Security/00000032
+2020-05-12 10:32:49.754 Info: Saved 1 MB at 53 MB/sec to /var/opt/MarkLogic/Forests/Security/00000032
+2020-05-12 10:32:49.757 Info: Merging 2 MB from /var/opt/MarkLogic/Forests/Security/00000031 and /var/opt/MarkLogic/Forests/Security/00000032 to /var/opt/MarkLogic/Forests/Security/00000033, timestamp=15892789672198550
+2020-05-12 10:32:49.815 Info: Merged 1 MB at 17 MB/sec to /var/opt/MarkLogic/Forests/Security/00000033
+2020-05-12 10:32:53.102 Info: Deleted 1 MB at 415 MB/sec /var/opt/MarkLogic/Forests/Security/00000031
+2020-05-12 10:32:53.104 Info: Deleted 1 MB at 566 MB/sec /var/opt/MarkLogic/Forests/Security/00000032
+2020-05-12 10:33:00.242 Info: Memory 61% phys=7973 size=5188(65%) rss=4931(61%) anon=4859(60%) file=46(0%) forest=2298(28%) cache=2560(32%) registry=1(0%)
+2020-05-12 10:34:00.330 Info: Memory 67% phys=7973 size=5647(70%) rss=5362(67%) anon=5280(66%) file=83(1%) forest=4208(52%) cache=2562(32%) registry=1(0%)
+2020-05-12 10:34:32.708 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000012d
+2020-05-12 10:34:32.723 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/00000019
+2020-05-12 10:34:32.738 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/00000019
+2020-05-12 10:34:32.791 Info: Saved 8 MB at 96 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000012d
+2020-05-12 10:34:32.792 Info: Saved 8 MB at 116 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/00000019
+2020-05-12 10:34:32.797 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/0000012d and /var/opt/MarkLogic/Forests/App-Services/0000012c to /var/opt/MarkLogic/Forests/App-Services/0000012e, timestamp=15892790404860910
+2020-05-12 10:34:32.798 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/00000019 and /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/00000018 to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001a, timestamp=15892790404860910
+2020-05-12 10:34:32.816 Info: Saved 8 MB at 104 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/00000019
+2020-05-12 10:34:32.820 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/00000019 and /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/00000018 to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001a, timestamp=15892790404860910
+2020-05-12 10:34:32.835 Info: Merged 1 MB at 27 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000012e
+2020-05-12 10:34:32.839 Info: Merged 1 MB at 24 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001a
+2020-05-12 10:34:32.860 Info: Merged 1 MB at 25 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001a
+2020-05-12 10:34:35.031 Info: Deleted 1 MB at 458 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000012c
+2020-05-12 10:34:35.035 Info: Deleted 8 MB at 2055 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000012d
+2020-05-12 10:34:35.037 Info: Deleted 1 MB at 541 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/00000018
+2020-05-12 10:34:35.040 Info: Deleted 8 MB at 2238 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/00000019
+2020-05-12 10:34:35.042 Info: Deleted 1 MB at 553 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/00000018
+2020-05-12 10:34:35.046 Info: Deleted 8 MB at 1943 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/00000019
+2020-05-12 10:34:39.691 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c0
+2020-05-12 10:34:39.763 Info: Saved 8 MB at 111 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c0
+2020-05-12 10:34:39.767 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c0 and /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bf to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c1, timestamp=15892790404860910
+2020-05-12 10:34:39.800 Info: Merged 1 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c1
+2020-05-12 10:34:40.593 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c0
+2020-05-12 10:34:40.669 Info: Saved 8 MB at 105 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c0
+2020-05-12 10:34:40.673 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c0 and /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bf to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c1, timestamp=15892790404860910
+2020-05-12 10:34:40.705 Info: Merged 1 MB at 31 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c1
+2020-05-12 10:34:41.521 Info: Saving /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a4
+2020-05-12 10:34:41.544 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ca
+2020-05-12 10:34:41.657 Info: Saved 8 MB at 71 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ca
+2020-05-12 10:34:41.663 Info: Merging 11 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ca and /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c9 to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cb, timestamp=15892790404860910
+2020-05-12 10:34:41.782 Info: Merged 3 MB at 25 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cb
+2020-05-12 10:34:41.793 Info: Saved 17 MB at 63 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a4
+2020-05-12 10:34:41.796 Info: Merging 27 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a4 and /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a3 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a5, timestamp=15892790404860910
+2020-05-12 10:34:42.007 Info: Merged 15 MB at 71 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a5
+2020-05-12 10:34:42.207 Info: Deleted 1 MB at 399 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000bf
+2020-05-12 10:34:42.211 Info: Deleted 8 MB at 1728 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c0
+2020-05-12 10:34:42.214 Info: Deleted 1 MB at 447 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000bf
+2020-05-12 10:34:42.217 Info: Deleted 8 MB at 2075 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c0
+2020-05-12 10:34:42.221 Info: Deleted 3 MB at 888 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000c9
+2020-05-12 10:34:42.225 Info: Deleted 8 MB at 1863 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ca
+2020-05-12 10:34:42.228 Info: Deleted 10 MB at 4589 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a3
+2020-05-12 10:34:42.232 Info: Deleted 17 MB at 4175 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a4
+2020-05-12 10:34:42.685 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c0
+2020-05-12 10:34:42.821 Info: Saved 8 MB at 59 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c0
+2020-05-12 10:34:42.826 Info: Merging 13 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c0 and /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bf to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c1, timestamp=15892795625753321
+2020-05-12 10:34:43.014 Info: Merged 5 MB at 27 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c1
+2020-05-12 10:34:45.246 Info: Deleted 5 MB at 848 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000bf
+2020-05-12 10:34:45.252 Info: Deleted 8 MB at 1358 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c0
+2020-05-12 10:35:00.242 Info: Memory 64% phys=7973 size=5359(67%) rss=5140(64%) anon=5052(63%) file=23(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 10:38:00.115 Info: Memory 37% phys=7973 size=3179(39%) rss=2953(37%) anon=2872(36%) file=23(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 10:39:00.150 Info: Memory 24% phys=7973 size=2168(27%) rss=1941(24%) anon=1861(23%) file=23(0%) forest=880(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 10:39:52.658 Info: Saving /var/opt/MarkLogic/Forests/Security/00000034
+2020-05-12 10:39:52.678 Info: Saved 1 MB at 50 MB/sec to /var/opt/MarkLogic/Forests/Security/00000034
+2020-05-12 10:39:52.682 Info: Merging 2 MB from /var/opt/MarkLogic/Forests/Security/00000033 and /var/opt/MarkLogic/Forests/Security/00000034 to /var/opt/MarkLogic/Forests/Security/00000035, timestamp=15892793917998050
+2020-05-12 10:39:52.720 Info: Merged 1 MB at 26 MB/sec to /var/opt/MarkLogic/Forests/Security/00000035
+2020-05-12 10:39:56.175 Info: Deleted 1 MB at 540 MB/sec /var/opt/MarkLogic/Forests/Security/00000033
+2020-05-12 10:39:56.177 Info: Deleted 1 MB at 669 MB/sec /var/opt/MarkLogic/Forests/Security/00000034
+2020-05-12 10:40:00.333 Info: Memory 53% phys=7973 size=4514(56%) rss=4251(53%) anon=4169(52%) file=61(0%) forest=3286(41%) cache=2562(32%) registry=1(0%)
+2020-05-12 10:40:45.544 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000050
+2020-05-12 10:40:45.638 Info: Saved 8 MB at 84 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000050
+2020-05-12 10:40:45.642 Info: Merging 53 MB from /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004f, /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004e, and /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000050 to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000051, timestamp=15892794120246670
+2020-05-12 10:40:46.181 Info: Merged 39 MB in 1 sec at 72 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000051
+2020-05-12 10:40:48.195 Info: Deleted 37 MB at 8726 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004f
+2020-05-12 10:40:48.202 Info: Deleted 10 MB at 1417 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/0000004e
+2020-05-12 10:40:48.207 Info: Deleted 8 MB at 1656 MB/sec /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000050
+2020-05-12 10:41:00.105 Info: Memory 62% phys=7973 size=5281(66%) rss=5000(62%) anon=4922(61%) file=76(0%) forest=4325(54%) cache=2562(32%) registry=1(0%)
+2020-05-12 10:41:33.714 Info: Saving /var/opt/MarkLogic/Forests/App-Services/0000012f
+2020-05-12 10:41:33.718 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001b
+2020-05-12 10:41:33.746 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001b
+2020-05-12 10:41:33.789 Info: Saved 8 MB at 107 MB/sec to /var/opt/MarkLogic/Forests/App-Services/0000012f
+2020-05-12 10:41:33.792 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/0000012f and /var/opt/MarkLogic/Forests/App-Services/0000012e to /var/opt/MarkLogic/Forests/App-Services/00000130, timestamp=15892794601547830
+2020-05-12 10:41:33.806 Info: Saved 8 MB at 92 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001b
+2020-05-12 10:41:33.810 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001b and /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001a to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001c, timestamp=15892794601547830
+2020-05-12 10:41:33.821 Info: Merged 1 MB at 34 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000130
+2020-05-12 10:41:33.824 Info: Saved 8 MB at 103 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001b
+2020-05-12 10:41:33.829 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001b and /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001a to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001c, timestamp=15892794601547830
+2020-05-12 10:41:33.844 Info: Merged 1 MB at 29 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001c
+2020-05-12 10:41:33.880 Info: Merged 1 MB at 19 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001c
+2020-05-12 10:41:36.032 Info: Deleted 1 MB at 261 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000012e
+2020-05-12 10:41:36.037 Info: Deleted 8 MB at 1661 MB/sec /var/opt/MarkLogic/Forests/App-Services/0000012f
+2020-05-12 10:41:36.039 Info: Deleted 1 MB at 440 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001a
+2020-05-12 10:41:36.043 Info: Deleted 8 MB at 2086 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001b
+2020-05-12 10:41:36.045 Info: Deleted 1 MB at 502 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001a
+2020-05-12 10:41:36.049 Info: Deleted 8 MB at 2223 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001b
+2020-05-12 10:41:39.696 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c2
+2020-05-12 10:41:39.764 Info: Saved 8 MB at 118 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c2
+2020-05-12 10:41:39.768 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c2 and /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c1 to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c3, timestamp=15892794601547830
+2020-05-12 10:41:39.803 Info: Merged 1 MB at 28 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c3
+2020-05-12 10:41:40.696 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c2
+2020-05-12 10:41:40.766 Info: Saved 8 MB at 115 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c2
+2020-05-12 10:41:40.769 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c2 and /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c1 to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c3, timestamp=15892794601547830
+2020-05-12 10:41:40.803 Info: Merged 1 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c3
+2020-05-12 10:41:41.585 Info: Saving /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a6
+2020-05-12 10:41:41.763 Info: Saved 17 MB at 96 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a6
+2020-05-12 10:41:41.768 Info: Merging 32 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a6 and /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a5 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a7, timestamp=15892794601547830
+2020-05-12 10:41:41.988 Info: Merged 18 MB at 82 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a7
+2020-05-12 10:41:42.104 Info: Deleted 1 MB at 290 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c1
+2020-05-12 10:41:42.108 Info: Deleted 8 MB at 1795 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c2
+2020-05-12 10:41:42.110 Info: Deleted 1 MB at 448 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c1
+2020-05-12 10:41:42.114 Info: Deleted 8 MB at 2028 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c2
+2020-05-12 10:41:42.117 Info: Deleted 15 MB at 7079 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a5
+2020-05-12 10:41:42.148 Info: Deleted 17 MB at 536 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a6
+2020-05-12 10:41:42.555 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cc
+2020-05-12 10:41:42.557 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c2
+2020-05-12 10:41:42.683 Info: Saved 8 MB at 63 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cc
+2020-05-12 10:41:42.687 Info: Merging 11 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cc and /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cb to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cd, timestamp=15892794601547830
+2020-05-12 10:41:42.765 Info: Saved 8 MB at 38 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c2
+2020-05-12 10:41:42.770 Info: Merging 13 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c2 and /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c1 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c3, timestamp=15892795625753321
+2020-05-12 10:41:42.814 Info: Merged 4 MB at 31 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cd
+2020-05-12 10:41:42.984 Info: Merged 5 MB at 23 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c3
+2020-05-12 10:41:45.224 Info: Deleted 3 MB at 789 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cb
+2020-05-12 10:41:45.231 Info: Deleted 8 MB at 1252 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cc
+2020-05-12 10:41:45.236 Info: Deleted 5 MB at 1037 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c1
+2020-05-12 10:41:45.242 Info: Deleted 8 MB at 1311 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c2
+2020-05-12 10:42:00.165 Info: Memory 59% phys=7973 size=4951(62%) rss=4752(59%) anon=4652(58%) file=16(0%) forest=869(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 10:44:01.753 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000130 to /var/opt/MarkLogic/Forests/App-Services/00000131, timestamp=15892796402475730
+2020-05-12 10:44:01.755 Info: Merging 11 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a7 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a8, timestamp=15892796402475730
+2020-05-12 10:44:01.758 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001c to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001d, timestamp=15892796402475730
+2020-05-12 10:44:01.764 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c3 to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c4, timestamp=15892796402475730
+2020-05-12 10:44:01.770 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001c to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001d, timestamp=15892796402475730
+2020-05-12 10:44:01.774 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c3 to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c4, timestamp=15892796402475730
+2020-05-12 10:44:01.778 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000035 to /var/opt/MarkLogic/Forests/Security/00000036, timestamp=15892796402475730
+2020-05-12 10:44:01.779 Info: Merging 3 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cd to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ce, timestamp=15892796402475730
+2020-05-12 10:44:01.817 Info: Merged 1 MB at 16 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000131
+2020-05-12 10:44:01.828 Info: Merged 1 MB at 14 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001d
+2020-05-12 10:44:01.839 Info: Merged 1 MB at 15 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001d
+2020-05-12 10:44:01.841 Info: Merged 1 MB at 13 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c4
+2020-05-12 10:44:01.843 Info: Merged 1 MB at 15 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c4
+2020-05-12 10:44:01.887 Info: Merged 1 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/Security/00000036
+2020-05-12 10:44:01.945 Info: Merged 4 MB at 24 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ce
+2020-05-12 10:44:02.008 Info: Merged 15 MB at 59 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a8
+2020-05-12 10:44:04.032 Info: Deleted 1 MB at 380 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000130
+2020-05-12 10:44:04.035 Info: Deleted 1 MB at 425 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001c
+2020-05-12 10:44:04.037 Info: Deleted 1 MB at 496 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c3
+2020-05-12 10:44:04.039 Info: Deleted 1 MB at 375 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001c
+2020-05-12 10:44:04.042 Info: Deleted 1 MB at 463 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c3
+2020-05-12 10:44:04.044 Info: Deleted 1 MB at 435 MB/sec /var/opt/MarkLogic/Forests/Security/00000035
+2020-05-12 10:44:04.047 Info: Deleted 4 MB at 1481 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cd
+2020-05-12 10:44:04.049 Info: Deleted 18 MB at 9399 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a7
+2020-05-12 10:45:00.181 Info: Memory 50% phys=7973 size=4268(53%) rss=4048(50%) anon=3969(49%) file=16(0%) forest=869(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 10:46:00.134 Info: Memory 29% phys=7973 size=2611(32%) rss=2391(29%) anon=2312(28%) file=16(0%) forest=869(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 10:50:01.606 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000131 to /var/opt/MarkLogic/Forests/App-Services/00000132, timestamp=15892800003662880
+2020-05-12 10:50:01.608 Info: Merging 8 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a8 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a9, timestamp=15892800003662880
+2020-05-12 10:50:01.629 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Security/00000036 to /var/opt/MarkLogic/Forests/Security/00000037, timestamp=15892800003662880
+2020-05-12 10:50:01.631 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ce to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cf, timestamp=15892800003662880
+2020-05-12 10:50:01.632 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c3 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c4, timestamp=15892800003662880
+2020-05-12 10:50:01.639 Info: Merged 1 MB at 31 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000132
+2020-05-12 10:50:01.694 Info: Merged 1 MB at 16 MB/sec to /var/opt/MarkLogic/Forests/Security/00000037
+2020-05-12 10:50:01.744 Info: Merged 1 MB at 9 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cf
+2020-05-12 10:50:01.790 Info: Merged 10 MB at 55 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a9
+2020-05-12 10:50:01.961 Info: Merged 1 MB at 3 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c4
+2020-05-12 10:50:01.969 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c4 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c5, timestamp=15892800003662880
+2020-05-12 10:50:02.131 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c5
+2020-05-12 10:50:04.073 Info: Deleted 1 MB at 329 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000131
+2020-05-12 10:50:04.076 Info: Deleted 1 MB at 366 MB/sec /var/opt/MarkLogic/Forests/Security/00000036
+2020-05-12 10:50:04.080 Info: Deleted 4 MB at 1063 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000ce
+2020-05-12 10:50:04.082 Info: Deleted 15 MB at 8616 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a8
+2020-05-12 10:50:04.087 Info: Deleted 5 MB at 1082 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c3
+2020-05-12 10:50:04.091 Info: Deleted 1 MB at 237 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c4
+2020-05-12 10:51:00.163 Info: Memory 22% phys=7973 size=2042(25%) rss=1821(22%) anon=1743(21%) file=15(0%) forest=869(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 10:52:01.548 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/App-Services/00000132 to /var/opt/MarkLogic/Forests/App-Services/00000133, timestamp=15892801201808530
+2020-05-12 10:52:01.555 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001d to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001e, timestamp=15892801201808530
+2020-05-12 10:52:01.562 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c4 to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c5, timestamp=15892801201808530
+2020-05-12 10:52:01.568 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001d to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001e, timestamp=15892801201808530
+2020-05-12 10:52:01.572 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c4 to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c5, timestamp=15892801201808530
+2020-05-12 10:52:01.576 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cf to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000d0, timestamp=15892801201808530
+2020-05-12 10:52:01.578 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c5 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c6, timestamp=15892801201808530
+2020-05-12 10:52:01.595 Info: Merged 1 MB at 21 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000133
+2020-05-12 10:52:01.605 Info: Merged 1 MB at 20 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001e
+2020-05-12 10:52:01.616 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c5
+2020-05-12 10:52:01.617 Info: Merged 1 MB at 20 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001e
+2020-05-12 10:52:01.627 Info: Merged 1 MB at 18 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c5
+2020-05-12 10:52:01.658 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000d0
+2020-05-12 10:52:01.757 Info: Merged 1 MB at 6 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c6
+2020-05-12 10:52:04.155 Info: Deleted 1 MB at 392 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000132
+2020-05-12 10:52:04.157 Info: Deleted 1 MB at 521 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001d
+2020-05-12 10:52:04.159 Info: Deleted 1 MB at 574 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c4
+2020-05-12 10:52:04.161 Info: Deleted 1 MB at 587 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001d
+2020-05-12 10:52:04.162 Info: Deleted 1 MB at 557 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c4
+2020-05-12 10:52:04.164 Info: Deleted 1 MB at 510 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000cf
+2020-05-12 10:52:04.169 Info: Deleted 1 MB at 230 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c5
+2020-05-12 10:59:00.266 Info: Memory 19% phys=7973 size=1783(22%) rss=1562(19%) anon=1484(18%) file=15(0%) forest=869(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 11:06:00.469 Info: Saving /var/opt/MarkLogic/Forests/Meters/00000040
+2020-05-12 11:06:01.326 Info: Saved 26 MB in 1 sec at 30 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000040
+2020-05-12 11:06:01.390 Info: Merging 14 MB from /var/opt/MarkLogic/Forests/Meters/00000040 to /var/opt/MarkLogic/Forests/Meters/00000044, timestamp=15892809605539330
+2020-05-12 11:06:01.877 Info: Merged 13 MB at 27 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000044
+2020-05-12 11:06:04.187 Info: Deleted 26 MB at 5493 MB/sec /var/opt/MarkLogic/Forests/Meters/00000040
+2020-05-12 11:07:00.294 Info: Memory 16% phys=7973 size=1569(19%) rss=1348(16%) anon=1270(15%) file=15(0%) forest=838(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 11:27:27.001 Warning: Forest Meters journal frame took 924783 ms to journal (sem=0 disk=924783 ja=0 dbrep=0 ld=0): {{fsn=21090, chksum=0xbbe253a0, words=23}, op=fastQueryTimestamp, time=1589281922, mfor=13319190251620099905, mtim=15877167616838110, mfsn=21090, fmcl=5312160737975292405, fmf=13319190251620099905, fmt=15877167616838110, fmfsn=21090, sk=2791872765105171461, pfo=32439688}
+2020-05-12 11:27:27.018 Warning: Slow background cluster.background.clusters, 924.8 sec
+2020-05-12 11:27:27.019 Warning: Slow background cluster.background.hosts.AssignmentManager.Meters, 924.8 sec
+2020-05-12 11:27:27.051 Info: Saving /var/opt/MarkLogic/Forests/Meters/00000043
+2020-05-12 11:27:27.182 Info: Saved 1 MB at 8 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000043
+2020-05-12 11:27:27.828 Warning: Hung 925 sec
+2020-05-12 11:27:27.951 Warning: Canary thread sleep was 925782 ms
+2020-05-12 11:27:29.764 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Meters/00000043 to /var/opt/MarkLogic/Forests/Meters/00000046, timestamp=15892822480270000
+2020-05-12 11:27:29.958 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000046
+2020-05-12 11:27:32.120 Info: Deleted 1 MB at 261 MB/sec /var/opt/MarkLogic/Forests/Meters/00000043
+2020-05-12 12:04:15.681 Warning: Canary thread sleep was 2007813 ms
+2020-05-12 12:04:15.894 Warning: Hung 2007 sec
+2020-05-12 12:04:16.463 Info: Memory 17% phys=7973 size=1581(19%) rss=1360(17%) anon=1282(16%) file=15(0%) forest=871(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 12:04:16.504 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Meters/00000046 to /var/opt/MarkLogic/Forests/Meters/00000047, timestamp=15892830001267370
+2020-05-12 12:04:16.952 Info: Merged 1 MB at 2 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000047
+2020-05-12 12:04:19.092 Info: Deleted 1 MB at 93 MB/sec /var/opt/MarkLogic/Forests/Meters/00000046
+2020-05-12 12:41:36.001 Info: Saving /var/opt/MarkLogic/Forests/Meters/00000045
+2020-05-12 12:41:36.090 Info: Saved 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000045
+2020-05-12 12:41:36.094 Info: Merging 2 MB from /var/opt/MarkLogic/Forests/Meters/00000047 and /var/opt/MarkLogic/Forests/Meters/00000045 to /var/opt/MarkLogic/Forests/Meters/00000048, timestamp=15892844569206200
+2020-05-12 12:41:36.192 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/Meters/00000048
+2020-05-12 12:41:36.292 Warning: Hung 2211 sec
+2020-05-12 12:41:36.379 Info: Memory 16% phys=7973 size=1558(19%) rss=1343(16%) anon=1260(15%) file=15(0%) forest=29(0%) cache=2560(32%) registry=1(0%)
+2020-05-12 12:41:36.674 Warning: Canary thread sleep was 2211251 ms
+2020-05-12 12:41:38.241 Info: Deleted 1 MB at 305 MB/sec /var/opt/MarkLogic/Forests/Meters/00000047
+2020-05-12 12:41:38.244 Info: Deleted 1 MB at 346 MB/sec /var/opt/MarkLogic/Forests/Meters/00000045
+2020-05-12 12:41:38.623 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Meters/00000048 to /var/opt/MarkLogic/Forests/Meters/0000004a, timestamp=15892866964715880
+2020-05-12 12:41:38.719 Info: Merged 1 MB at 10 MB/sec to /var/opt/MarkLogic/Forests/Meters/0000004a
+2020-05-12 12:41:41.031 Info: Deleted 1 MB at 301 MB/sec /var/opt/MarkLogic/Forests/Meters/00000048
+2020-05-12 12:45:09.031 Warning: Slow background cluster.background.clusters, 161.5 sec
+2020-05-12 12:45:09.033 Warning: Slow background cluster.background.hosts.AssignmentManager.REFP-JOBS-1.meters, 161.5 sec
+2020-05-12 12:45:09.518 Warning: Hung 162 sec
+2020-05-12 12:45:09.951 Warning: Canary thread sleep was 162467 ms
+2020-05-12 12:52:01.557 Info: Merging 1 MB from /var/opt/MarkLogic/Forests/Meters/0000004a to /var/opt/MarkLogic/Forests/Meters/0000004b, timestamp=15892873203278410
+2020-05-12 12:52:01.641 Info: Merged 1 MB at 12 MB/sec to /var/opt/MarkLogic/Forests/Meters/0000004b
+2020-05-12 12:52:04.028 Info: Deleted 1 MB at 255 MB/sec /var/opt/MarkLogic/Forests/Meters/0000004a
+2020-05-12 13:12:00.202 Info: Memory 17% phys=7973 size=1624(20%) rss=1403(17%) anon=1325(16%) file=15(0%) forest=871(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 13:42:00.195 Info: Memory 17% phys=7973 size=1656(20%) rss=1435(17%) anon=1357(17%) file=15(0%) forest=871(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 14:12:00.331 Info: Memory 18% phys=7973 size=1688(21%) rss=1467(18%) anon=1389(17%) file=15(0%) forest=871(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 16:34:54.784 Notice: Starting MarkLogic Server 9.0-12 x86_64 in /opt/MarkLogic with data in /var/opt/MarkLogic
+2020-05-12 16:34:54.785 Info: MarkLogic Converters not installed
+2020-05-12 16:34:54.805 Info: Host ml-9.0-12-agrica with 8GB memory running Linux 4.9.184-linuxkit (CentOS Linux release 7.7.1908 (Core)) on Docker
+2020-05-12 16:34:54.807 Warning: Linux swap is underprovisioned; need=8GB have=1GB
+2020-05-12 16:34:55.023 Info: License key languages: en
+2020-05-12 16:34:55.078 Info: Using icu tokenization: ta ro tr da fi hu
+2020-05-12 16:34:55.078 Info: Using bitext stemming: en en-uc
+2020-05-12 16:34:55.078 Info: Using snowball stemming: ta ro tr da fi hu
+2020-05-12 16:34:56.728 Info: Loaded schemas, rule sets, and templates
+2020-05-12 16:34:56.807 Notice: Keystore {kms-type=internal, status=normal, dataEncryption=default-off, configEncryption=off, logsEncryption=off}
+2020-05-12 16:34:56.818 Info: Native plugin cache manifest initialized
+2020-05-12 16:34:56.831 Info: Forest App-Services state changed from unmounted to mounted
+2020-05-12 16:34:56.831 Info: Forest Last-Login state changed from unmounted to mounted
+2020-05-12 16:34:56.832 Notice: Mounted forest App-Services locally on /var/opt/MarkLogic/Forests/App-Services read write
+2020-05-12 16:34:56.832 Notice: Mounted forest Last-Login locally on /var/opt/MarkLogic/Forests/Last-Login read write
+2020-05-12 16:34:56.833 Info: Forest Triggers state changed from unmounted to mounted
+2020-05-12 16:34:56.834 Notice: Mounted forest Triggers locally on /var/opt/MarkLogic/Forests/Triggers read write
+2020-05-12 16:34:56.835 Info: Forest Meters state changed from unmounted to mounted
+2020-05-12 16:34:56.835 Notice: Mounted forest Meters locally on /var/opt/MarkLogic/Forests/Meters read write
+2020-05-12 16:34:56.842 Info: Forest Last-Login state changed from mounted to recovering
+2020-05-12 16:34:56.842 Info: Forest Triggers state changed from mounted to recovering
+2020-05-12 16:34:56.844 Info: Forest Triggers state changed from recovering to open
+2020-05-12 16:34:56.844 Info: Forest Last-Login state changed from recovering to open
+2020-05-12 16:34:56.860 Info: Forest App-Services state changed from mounted to recovering
+2020-05-12 16:34:56.877 Info: Forest App-Services state changed from recovering to open
+2020-05-12 16:34:56.893 Info: Deleted 2 MB at 1375 MB/sec /var/opt/MarkLogic/Forests/Meters/00000049
+2020-05-12 16:34:56.895 Info: Forest Schemas state changed from unmounted to mounted
+2020-05-12 16:34:56.895 Notice: Mounted forest Schemas locally on /var/opt/MarkLogic/Forests/Schemas read write
+2020-05-12 16:34:56.899 Info: Forest REFP-MODULES-1 state changed from unmounted to mounted
+2020-05-12 16:34:56.899 Notice: Mounted forest REFP-MODULES-1 locally on /var/opt/MarkLogic/Forests/REFP-MODULES-1 read write
+2020-05-12 16:34:56.900 Info: Forest Security state changed from unmounted to mounted
+2020-05-12 16:34:56.900 Notice: Mounted forest Security locally on /var/opt/MarkLogic/Forests/Security read write
+2020-05-12 16:34:56.901 Info: Forest Schemas state changed from mounted to recovering
+2020-05-12 16:34:56.901 Info: Forest Schemas state changed from recovering to open
+2020-05-12 16:34:56.902 Info: Forest Modules state changed from unmounted to mounted
+2020-05-12 16:34:56.953 Notice: Mounted forest Modules locally on /var/opt/MarkLogic/Forests/Modules read write
+2020-05-12 16:34:56.954 Info: Forest REFP-FINAL-TRIGGERS-1 state changed from unmounted to mounted
+2020-05-12 16:34:56.954 Notice: Mounted forest REFP-FINAL-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1 read write
+2020-05-12 16:34:56.960 Info: Forest Modules state changed from mounted to recovering
+2020-05-12 16:34:56.961 Info: Forest Modules state changed from recovering to open
+2020-05-12 16:34:56.967 Info: Forest REFP-JOBS-1 state changed from unmounted to mounted
+2020-05-12 16:34:56.967 Notice: Mounted forest REFP-JOBS-1 locally on /var/opt/MarkLogic/Forests/REFP-JOBS-1 read write
+2020-05-12 16:34:56.968 Info: Forest REFP-STAGING-SCHEMAS-1 state changed from unmounted to mounted
+2020-05-12 16:34:56.968 Notice: Mounted forest REFP-STAGING-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1 read write
+2020-05-12 16:34:56.973 Info: Forest Fab state changed from unmounted to mounted
+2020-05-12 16:34:56.973 Notice: Mounted forest Fab locally on /var/opt/MarkLogic/Forests/Fab read write
+2020-05-12 16:34:56.974 Info: Forest REFP-STAGING-TRIGGERS-1 state changed from unmounted to mounted
+2020-05-12 16:34:56.974 Notice: Mounted forest REFP-STAGING-TRIGGERS-1 locally on /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1 read write
+2020-05-12 16:34:56.978 Info: Forest Security state changed from mounted to recovering
+2020-05-12 16:34:56.979 Info: Forest Fab state changed from mounted to recovering
+2020-05-12 16:34:56.979 Info: Forest REFP-MODULES-1 state changed from mounted to recovering
+2020-05-12 16:34:56.980 Info: Forest Fab state changed from recovering to open
+2020-05-12 16:34:56.982 Info: Forest REFP-FINAL-TRIGGERS-1 state changed from mounted to recovering
+2020-05-12 16:34:57.000 Info: Forest REFP-FINAL-TRIGGERS-1 state changed from recovering to open
+2020-05-12 16:34:57.002 Info: Forest Meters state changed from mounted to recovering
+2020-05-12 16:34:57.003 Info: Forest REFP-STAGING-SCHEMAS-1 state changed from mounted to recovering
+2020-05-12 16:34:57.007 Info: Forest Security state changed from recovering to open
+2020-05-12 16:34:57.022 Info: Forest REFP-STAGING-TRIGGERS-1 state changed from mounted to recovering
+2020-05-12 16:34:57.036 Info: Forest Extensions state changed from unmounted to mounted
+2020-05-12 16:34:57.036 Notice: Mounted forest Extensions locally on /var/opt/MarkLogic/Forests/Extensions read write
+2020-05-12 16:34:57.038 Info: Forest REFP-FINAL-SCHEMAS-1 state changed from unmounted to mounted
+2020-05-12 16:34:57.038 Notice: Mounted forest REFP-FINAL-SCHEMAS-1 locally on /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1 read write
+2020-05-12 16:34:57.039 Info: Forest REFP-STAGING-SCHEMAS-1 state changed from recovering to open
+2020-05-12 16:34:57.039 Info: Forest Documents state changed from unmounted to mounted
+2020-05-12 16:34:57.039 Notice: Mounted forest Documents locally on /var/opt/MarkLogic/Forests/Documents read write
+2020-05-12 16:34:57.040 Info: Forest REFP-STAGING-TRIGGERS-1 state changed from recovering to open
+2020-05-12 16:34:57.040 Info: Forest REFP-STAGING-1 state changed from unmounted to mounted
+2020-05-12 16:34:57.040 Notice: Mounted forest REFP-STAGING-1 locally on /var/opt/MarkLogic/Forests/REFP-STAGING-1 read write
+2020-05-12 16:34:57.042 Info: Forest Extensions state changed from mounted to recovering
+2020-05-12 16:34:57.045 Info: Forest Documents state changed from mounted to recovering
+2020-05-12 16:34:57.046 Info: Forest Extensions state changed from recovering to open
+2020-05-12 16:34:57.046 Info: Forest Documents state changed from recovering to open
+2020-05-12 16:34:57.070 Info: Forest REFP-FINAL-SCHEMAS-1 state changed from mounted to recovering
+2020-05-12 16:34:57.084 Info: Forest REFP-MODULES-1 state changed from recovering to open
+2020-05-12 16:34:57.089 Info: Forest REFP-FINAL-SCHEMAS-1 state changed from recovering to open
+2020-05-12 16:34:57.095 Info: Forest REFP-STAGING-1 state changed from mounted to recovering
+2020-05-12 16:34:57.103 Info: Forest REFP-FINAL-1 state changed from unmounted to mounted
+2020-05-12 16:34:57.103 Notice: Mounted forest REFP-FINAL-1 locally on /var/opt/MarkLogic/Forests/REFP-FINAL-1 read write
+2020-05-12 16:34:57.123 Info: Forest REFP-STAGING-1 state changed from recovering to open
+2020-05-12 16:34:57.161 Info: Forest REFP-JOBS-1 state changed from mounted to recovering
+2020-05-12 16:34:57.164 Info: Forest REFP-FINAL-1 state changed from mounted to recovering
+2020-05-12 16:34:57.200 Info: Forest REFP-FINAL-1 state changed from recovering to open
+2020-05-12 16:34:57.207 Info: Forest REFP-JOBS-1 state changed from recovering to open
+2020-05-12 16:34:57.214 Info: Database REFP-MODULES is online with 1 forest
+2020-05-12 16:34:57.215 Info: Database Modules is online with 1 forest
+2020-05-12 16:34:57.216 Info: Database Security is online with 1 forest
+2020-05-12 16:34:57.218 Info: Database Last-Login is online with 1 forest
+2020-05-12 16:34:57.219 Info: Database REFP-FINAL-SCHEMAS is online with 1 forest
+2020-05-12 16:34:57.220 Info: Database Extensions is online with 1 forest
+2020-05-12 16:34:57.224 Info: Database Schemas is online with 1 forest
+2020-05-12 16:34:57.227 Info: Database REFP-STAGING is online with 1 forest
+2020-05-12 16:34:57.232 Info: Database REFP-STAGING-SCHEMAS is online with 1 forest
+2020-05-12 16:34:57.234 Info: Database REFP-FINAL is online with 1 forest
+2020-05-12 16:34:57.235 Info: Database REFP-STAGING-TRIGGERS is online with 1 forest
+2020-05-12 16:34:57.236 Info: Database Documents is online with 1 forest
+2020-05-12 16:34:57.239 Info: Database Fab is online with 1 forest
+2020-05-12 16:34:57.241 Info: Database App-Services is online with 1 forest
+2020-05-12 16:34:57.244 Info: Database REFP-FINAL-TRIGGERS is online with 1 forest
+2020-05-12 16:34:57.248 Info: Database Triggers is online with 1 forest
+2020-05-12 16:34:57.249 Info: Database REFP-JOBS is online with 1 forest
+2020-05-12 16:35:00.935 Info: Forest Meters state changed from recovering to open
+2020-05-12 16:35:01.217 Info: Linux Huge Pages: detected 0, recommend 1280 to 3724
+2020-05-12 16:35:01.218 Info: Database Meters is online with 1 forest
+2020-05-12 16:39:00.127 Info: Memory 4% phys=7973 size=561(7%) rss=324(4%) anon=263(3%) file=15(0%) forest=870(10%) cache=2560(32%) registry=1(0%)
+2020-05-12 16:44:00.270 Info: Memory 24% phys=7973 size=2174(27%) rss=1927(24%) anon=1846(23%) file=45(0%) forest=2903(36%) cache=2562(32%) registry=1(0%)
+2020-05-12 16:44:01.754 Info: Saving /var/opt/MarkLogic/Forests/Security/00000038
+2020-05-12 16:44:01.774 Info: Saved 1 MB at 51 MB/sec to /var/opt/MarkLogic/Forests/Security/00000038
+2020-05-12 16:44:01.777 Info: Merging 2 MB from /var/opt/MarkLogic/Forests/Security/00000037 and /var/opt/MarkLogic/Forests/Security/00000038 to /var/opt/MarkLogic/Forests/Security/00000039, timestamp=15893012404594330
+2020-05-12 16:44:01.810 Info: Merged 1 MB at 30 MB/sec to /var/opt/MarkLogic/Forests/Security/00000039
+2020-05-12 16:44:05.249 Info: Deleted 1 MB at 103 MB/sec /var/opt/MarkLogic/Forests/Security/00000037
+2020-05-12 16:44:05.251 Info: Deleted 1 MB at 628 MB/sec /var/opt/MarkLogic/Forests/Security/00000038
+2020-05-12 16:44:55.687 Info: Saving /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000052
+2020-05-12 16:44:55.780 Info: Saved 8 MB at 87 MB/sec to /var/opt/MarkLogic/Forests/REFP-JOBS-1/00000052
+2020-05-12 16:45:00.240 Info: Memory 53% phys=7973 size=4567(57%) rss=4282(53%) anon=4201(52%) file=82(1%) forest=4337(54%) cache=2562(32%) registry=1(0%)
+2020-05-12 16:45:46.732 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001f
+2020-05-12 16:45:46.796 Info: Saved 8 MB at 126 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001f
+2020-05-12 16:45:46.800 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001f and /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001e to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/00000020, timestamp=15893013002802590
+2020-05-12 16:45:46.822 Info: Merged 1 MB at 45 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/00000020
+2020-05-12 16:45:47.674 Info: Saving /var/opt/MarkLogic/Forests/App-Services/00000134
+2020-05-12 16:45:47.688 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001f
+2020-05-12 16:45:47.742 Info: Saved 8 MB at 117 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000134
+2020-05-12 16:45:47.745 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/App-Services/00000134 and /var/opt/MarkLogic/Forests/App-Services/00000133 to /var/opt/MarkLogic/Forests/App-Services/00000135, timestamp=15893013002802590
+2020-05-12 16:45:47.765 Info: Saved 8 MB at 104 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001f
+2020-05-12 16:45:47.766 Info: Merged 1 MB at 48 MB/sec to /var/opt/MarkLogic/Forests/App-Services/00000135
+2020-05-12 16:45:47.768 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001f and /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001e to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/00000020, timestamp=15893013002802590
+2020-05-12 16:45:47.792 Info: Merged 1 MB at 42 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/00000020
+2020-05-12 16:45:49.195 Info: Deleted 1 MB at 412 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001e
+2020-05-12 16:45:49.199 Info: Deleted 8 MB at 1998 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-TRIGGERS-1/0000001f
+2020-05-12 16:45:49.201 Info: Deleted 1 MB at 593 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000133
+2020-05-12 16:45:49.204 Info: Deleted 8 MB at 2538 MB/sec /var/opt/MarkLogic/Forests/App-Services/00000134
+2020-05-12 16:45:49.206 Info: Deleted 1 MB at 618 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001e
+2020-05-12 16:45:49.209 Info: Deleted 8 MB at 2434 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-TRIGGERS-1/0000001f
+2020-05-12 16:45:55.753 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c6
+2020-05-12 16:45:55.768 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c6
+2020-05-12 16:45:55.813 Info: Saved 8 MB at 134 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c6
+2020-05-12 16:45:55.817 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c6 and /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c5 to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c7, timestamp=15893013002802590
+2020-05-12 16:45:55.837 Info: Saved 8 MB at 117 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c6
+2020-05-12 16:45:55.840 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c6 and /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c5 to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c7, timestamp=15893013002802590
+2020-05-12 16:45:55.844 Info: Merged 1 MB at 38 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c7
+2020-05-12 16:45:55.868 Info: Merged 1 MB at 36 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c7
+2020-05-12 16:45:57.736 Info: Saving /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000aa
+2020-05-12 16:45:57.763 Info: Saving /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000d1
+2020-05-12 16:45:57.766 Info: Saving /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c7
+2020-05-12 16:45:57.857 Info: Saved 8 MB at 85 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000d1
+2020-05-12 16:45:57.860 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000d1 and /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000d0 to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000d2, timestamp=15893013002802590
+2020-05-12 16:45:57.936 Info: Saved 8 MB at 47 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c7
+2020-05-12 16:45:57.941 Info: Merging 9 MB from /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c7 and /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c6 to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c8, timestamp=15893013002802590
+2020-05-12 16:45:57.951 Info: Merged 1 MB at 11 MB/sec to /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000d2
+2020-05-12 16:45:57.969 Info: Saved 17 MB at 73 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000aa
+2020-05-12 16:45:57.973 Info: Merging 25 MB from /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000aa and /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a9 to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000ab, timestamp=15893013002802590
+2020-05-12 16:45:58.129 Info: Merged 1 MB at 5 MB/sec to /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c8
+2020-05-12 16:45:58.221 Info: Merged 15 MB at 60 MB/sec to /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000ab
+2020-05-12 16:45:58.243 Info: Deleted 1 MB at 450 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c5
+2020-05-12 16:45:58.247 Info: Deleted 8 MB at 2223 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-SCHEMAS-1/000000c6
+2020-05-12 16:45:58.248 Info: Deleted 1 MB at 582 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c5
+2020-05-12 16:45:58.252 Info: Deleted 8 MB at 2404 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-SCHEMAS-1/000000c6
+2020-05-12 16:45:58.254 Info: Deleted 1 MB at 461 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000d0
+2020-05-12 16:45:58.258 Info: Deleted 8 MB at 2154 MB/sec /var/opt/MarkLogic/Forests/REFP-STAGING-1/000000d1
+2020-05-12 16:45:58.262 Info: Deleted 1 MB at 237 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c6
+2020-05-12 16:45:58.268 Info: Deleted 8 MB at 1396 MB/sec /var/opt/MarkLogic/Forests/REFP-FINAL-1/000000c7
+2020-05-12 16:45:58.270 Info: Deleted 10 MB at 4348 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000a9
+2020-05-12 16:45:58.274 Info: Deleted 17 MB at 5042 MB/sec /var/opt/MarkLogic/Forests/REFP-MODULES-1/000000aa
+2020-05-12 16:46:00.173 Info: Memory 50% phys=7973 size=4283(53%) rss=4057(50%) anon=3977(49%) file=22(0%) forest=881(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 16:49:00.124 Info: Memory 44% phys=7973 size=3804(47%) rss=3579(44%) anon=3498(43%) file=22(0%) forest=881(11%) cache=2560(32%) registry=1(0%)
+2020-05-12 16:50:00.184 Info: Memory 18% phys=7973 size=1672(20%) rss=1447(18%) anon=1366(17%) file=22(0%) forest=881(11%) cache=2560(32%) registry=1(0%)

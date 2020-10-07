@@ -1,0 +1,8 @@
+2020-06-17 04:46:31.778 Info: ADMIN-NOSUCHEXTERNALSECURITY: (err:FOER0000) No such external security dummy-LDAP
+2020-06-17 04:46:31.778 Info: 12134:11:/MarkLogic/admin.xqy
+2020-06-17 04:49:54.646 Info: ADMIN-NOSUCHEXTERNALSECURITY: (err:FOER0000) No such external security dummy-LDAP
+2020-06-17 04:49:54.646 Info: 12134:11:/MarkLogic/admin.xqy
+2020-06-17 04:52:41.694 Info: XDMP-VALIDATEBADTYPE: (err:XQDY0027) validate strict { $nsfix } -- Invalid node type: srvprop:internal-security lexical value "%%isAllowInternalSecurity%%" invalid for expected type #srvprop:boolean at /srvprop:http-server-properties/srvprop:internal-security using schema "manage-server-properties.xsd"
+2020-06-17 04:52:41.694 Info: 2491:22:/MarkLogic/manage/models/server-model.xqy
+2020-06-17 04:55:45.448 Info: ADMIN-NOSUCHEXTERNALSECURITY: (err:FOER0000) No such external security %%externalSecurityName%%
+2020-06-17 04:55:45.448 Info: 12134:11:/MarkLogic/admin.xqy

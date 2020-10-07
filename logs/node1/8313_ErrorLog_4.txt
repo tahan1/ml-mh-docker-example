@@ -1,0 +1,156 @@
+2020-04-27 15:08:05.844 Notice: JS-JAVASCRIPT: let jobsReportFun = datahub.flow.step.makeFunction(datahub.flow, 'jobReport', stepDef.modulePath); -- Error running JavaScript request: TypeError: Cannot read property 'modulePath' of null
+2020-04-27 15:08:05.844 Notice:+in /marklogic.rest.resource/mlJobs/assets/resource.sjs, at 93:95, in post() [javascript]
+2020-04-27 15:08:05.844 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-27 15:08:05.844 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-27 15:08:05.844 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 919:44,
+2020-04-27 15:08:05.844 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}) [javascript]
+2020-04-27 15:08:05.844 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 919:44,
+2020-04-27 15:08:05.844 Notice:+in extut:call-service("ml:jobs", "POST", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy"), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}) [1.0-ml]
+2020-04-27 15:08:05.844 Notice:+  $extension-name = "ml:jobs"
+2020-04-27 15:08:05.844 Notice:+  $method = "POST"
+2020-04-27 15:08:05.844 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")
+2020-04-27 15:08:05.844 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:08:05.844 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:08:05.844 Notice:+  $input = document{object-node{}}
+2020-04-27 15:08:05.844 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 872:20,
+2020-04-27 15:08:05.844 Notice:+in function() as item()*() [1.0-ml]
+2020-04-27 15:08:05.844 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy,
+2020-04-27 15:08:05.844 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-27 15:08:05.844 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 870:12,
+2020-04-27 15:08:05.844 Notice:+in extut:invoke-service("ml:jobs", "POST", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy"), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}, fn:false()) [1.0-ml]
+2020-04-27 15:08:05.844 Notice:+  $extension-name = "ml:jobs"
+2020-04-27 15:08:05.844 Notice:+  $method = "POST"
+2020-04-27 15:08:05.844 Notice:+  $default-txn-mode = "query"
+2020-04-27 15:08:05.844 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")
+2020-04-27 15:08:05.844 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:08:05.844 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:08:05.844 Notice:+  $input = document{object-node{}}
+2020-04-27 15:08:05.844 Notice:+  $in-txn = fn:false()
+2020-04-27 15:08:05.844 Notice:+  $txn-curr = "query"
+2020-04-27 15:08:05.844 Notice:+  $txn-mode = "query"
+2020-04-27 15:08:05.844 Notice:+in /data-hub/5/rest-api/models/resource-model-query.xqy, at 270:20,
+2020-04-27 15:08:05.844 Notice:+in rsrcmodqry:resource-post("ml:jobs", map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}, fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-27 15:08:05.844 Notice:+  $resource-name = "ml:jobs"
+2020-04-27 15:08:05.844 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:08:05.844 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:08:05.844 Notice:+  $input = document{object-node{}}
+2020-04-27 15:08:05.844 Notice:+  $in-txn = fn:false()
+2020-04-27 15:08:05.844 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-27 15:08:05.844 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")
+2020-04-27 15:08:05.844 Notice:+in /data-hub/5/rest-api/models/resource-model-query.xqy, at 237:4,
+2020-04-27 15:08:05.844 Notice:+in rsrcmodqry:exec-post(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}, local:rsrcmod-callback#6) [1.0-ml]
+2020-04-27 15:08:05.844 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:08:05.844 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:08:05.844 Notice:+  $input = document{object-node{}}
+2020-04-27 15:08:05.844 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-27 15:08:05.844 Notice:+in /data-hub/5/rest-api/endpoints/resource-service-query.xqy, at 79:8 [1.0-ml]
+2020-04-27 15:08:05.844 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:08:05.844 Notice:+  $method = "POST"
+2020-04-27 15:08:05.844 Notice:+  $body = document{object-node{}}
+2020-04-27 15:08:05.844 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:08:05.844 Notice:+  $extra-names = ()
+2020-04-27 15:08:06.214 Info: Status 500: JS-JAVASCRIPT: let jobsReportFun = datahub.flow.step.makeFunction(datahub.flow, 'jobReport', stepDef.modulePath); -- Error running JavaScript request: TypeError: Cannot read property 'modulePath' of null
+2020-04-27 15:09:48.095 Notice: JS-JAVASCRIPT: let jobsReportFun = datahub.flow.step.makeFunction(datahub.flow, 'jobReport', stepDef.modulePath); -- Error running JavaScript request: TypeError: Cannot read property 'modulePath' of null
+2020-04-27 15:09:48.095 Notice:+in /marklogic.rest.resource/mlJobs/assets/resource.sjs, at 93:95, in post() [javascript]
+2020-04-27 15:09:48.095 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-27 15:09:48.095 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-27 15:09:48.095 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 919:44,
+2020-04-27 15:09:48.095 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}) [javascript]
+2020-04-27 15:09:48.095 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 919:44,
+2020-04-27 15:09:48.095 Notice:+in extut:call-service("ml:jobs", "POST", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy"), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}) [1.0-ml]
+2020-04-27 15:09:48.095 Notice:+  $extension-name = "ml:jobs"
+2020-04-27 15:09:48.095 Notice:+  $method = "POST"
+2020-04-27 15:09:48.095 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")
+2020-04-27 15:09:48.095 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:09:48.095 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:09:48.095 Notice:+  $input = document{object-node{}}
+2020-04-27 15:09:48.095 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 872:20,
+2020-04-27 15:09:48.095 Notice:+in function() as item()*() [1.0-ml]
+2020-04-27 15:09:48.095 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy,
+2020-04-27 15:09:48.095 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-27 15:09:48.095 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 870:12,
+2020-04-27 15:09:48.095 Notice:+in extut:invoke-service("ml:jobs", "POST", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy"), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}, fn:false()) [1.0-ml]
+2020-04-27 15:09:48.095 Notice:+  $extension-name = "ml:jobs"
+2020-04-27 15:09:48.095 Notice:+  $method = "POST"
+2020-04-27 15:09:48.095 Notice:+  $default-txn-mode = "query"
+2020-04-27 15:09:48.095 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")
+2020-04-27 15:09:48.095 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:09:48.095 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:09:48.095 Notice:+  $input = document{object-node{}}
+2020-04-27 15:09:48.095 Notice:+  $in-txn = fn:false()
+2020-04-27 15:09:48.095 Notice:+  $txn-curr = "query"
+2020-04-27 15:09:48.095 Notice:+  $txn-mode = "query"
+2020-04-27 15:09:48.095 Notice:+in /data-hub/5/rest-api/models/resource-model-query.xqy, at 270:20,
+2020-04-27 15:09:48.095 Notice:+in rsrcmodqry:resource-post("ml:jobs", map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}, fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-27 15:09:48.095 Notice:+  $resource-name = "ml:jobs"
+2020-04-27 15:09:48.095 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:09:48.095 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:09:48.095 Notice:+  $input = document{object-node{}}
+2020-04-27 15:09:48.095 Notice:+  $in-txn = fn:false()
+2020-04-27 15:09:48.095 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-27 15:09:48.095 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")
+2020-04-27 15:09:48.095 Notice:+in /data-hub/5/rest-api/models/resource-model-query.xqy, at 237:4,
+2020-04-27 15:09:48.095 Notice:+in rsrcmodqry:exec-post(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}, local:rsrcmod-callback#6) [1.0-ml]
+2020-04-27 15:09:48.095 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:09:48.095 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:09:48.095 Notice:+  $input = document{object-node{}}
+2020-04-27 15:09:48.095 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-27 15:09:48.095 Notice:+in /data-hub/5/rest-api/endpoints/resource-service-query.xqy, at 79:8 [1.0-ml]
+2020-04-27 15:09:48.095 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:09:48.095 Notice:+  $method = "POST"
+2020-04-27 15:09:48.095 Notice:+  $body = document{object-node{}}
+2020-04-27 15:09:48.095 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:09:48.095 Notice:+  $extra-names = ()
+2020-04-27 15:09:48.098 Info: Status 500: JS-JAVASCRIPT: let jobsReportFun = datahub.flow.step.makeFunction(datahub.flow, 'jobReport', stepDef.modulePath); -- Error running JavaScript request: TypeError: Cannot read property 'modulePath' of null
+2020-04-27 15:10:23.907 Notice: JS-JAVASCRIPT: let jobsReportFun = datahub.flow.step.makeFunction(datahub.flow, 'jobReport', stepDef.modulePath); -- Error running JavaScript request: TypeError: Cannot read property 'modulePath' of null
+2020-04-27 15:10:23.907 Notice:+in /marklogic.rest.resource/mlJobs/assets/resource.sjs, at 93:95, in post() [javascript]
+2020-04-27 15:10:23.907 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-27 15:10:23.907 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-27 15:10:23.907 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 919:44,
+2020-04-27 15:10:23.907 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}) [javascript]
+2020-04-27 15:10:23.907 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 919:44,
+2020-04-27 15:10:23.907 Notice:+in extut:call-service("ml:jobs", "POST", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy"), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}) [1.0-ml]
+2020-04-27 15:10:23.907 Notice:+  $extension-name = "ml:jobs"
+2020-04-27 15:10:23.907 Notice:+  $method = "POST"
+2020-04-27 15:10:23.907 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")
+2020-04-27 15:10:23.907 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:10:23.907 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:10:23.907 Notice:+  $input = document{object-node{}}
+2020-04-27 15:10:23.907 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 872:20,
+2020-04-27 15:10:23.907 Notice:+in function() as item()*() [1.0-ml]
+2020-04-27 15:10:23.907 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy,
+2020-04-27 15:10:23.907 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-27 15:10:23.907 Notice:+in /data-hub/5/rest-api/lib/extensions-util.xqy, at 870:12,
+2020-04-27 15:10:23.907 Notice:+in extut:invoke-service("ml:jobs", "POST", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy"), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}, fn:false()) [1.0-ml]
+2020-04-27 15:10:23.907 Notice:+  $extension-name = "ml:jobs"
+2020-04-27 15:10:23.907 Notice:+  $method = "POST"
+2020-04-27 15:10:23.907 Notice:+  $default-txn-mode = "query"
+2020-04-27 15:10:23.907 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")
+2020-04-27 15:10:23.907 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:10:23.907 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:10:23.907 Notice:+  $input = document{object-node{}}
+2020-04-27 15:10:23.907 Notice:+  $in-txn = fn:false()
+2020-04-27 15:10:23.907 Notice:+  $txn-curr = "query"
+2020-04-27 15:10:23.907 Notice:+  $txn-mode = "query"
+2020-04-27 15:10:23.907 Notice:+in /data-hub/5/rest-api/models/resource-model-query.xqy, at 270:20,
+2020-04-27 15:10:23.907 Notice:+in rsrcmodqry:resource-post("ml:jobs", map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}, fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-27 15:10:23.907 Notice:+  $resource-name = "ml:jobs"
+2020-04-27 15:10:23.907 Notice:+  $context = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:10:23.907 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:10:23.907 Notice:+  $input = document{object-node{}}
+2020-04-27 15:10:23.907 Notice:+  $in-txn = fn:false()
+2020-04-27 15:10:23.907 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-27 15:10:23.907 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/mlJobs","post"), "/marklogic.rest.resource/mlJobs/assets/resource.xqy")
+2020-04-27 15:10:23.907 Notice:+in /data-hub/5/rest-api/models/resource-model-query.xqy, at 237:4,
+2020-04-27 15:10:23.907 Notice:+in rsrcmodqry:exec-post(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), document{object-node{}}, local:rsrcmod-callback#6) [1.0-ml]
+2020-04-27 15:10:23.907 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:10:23.907 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:10:23.907 Notice:+  $input = document{object-node{}}
+2020-04-27 15:10:23.907 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-27 15:10:23.907 Notice:+in /data-hub/5/rest-api/endpoints/resource-service-query.xqy, at 79:8 [1.0-ml]
+2020-04-27 15:10:23.907 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:10:23.907 Notice:+  $method = "POST"
+2020-04-27 15:10:23.907 Notice:+  $body = document{object-node{}}
+2020-04-27 15:10:23.907 Notice:+  $params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-27 15:10:23.907 Notice:+  $extra-names = ()
+2020-04-27 15:10:23.909 Info: Status 500: JS-JAVASCRIPT: let jobsReportFun = datahub.flow.step.makeFunction(datahub.flow, 'jobReport', stepDef.modulePath); -- Error running JavaScript request: TypeError: Cannot read property 'modulePath' of null

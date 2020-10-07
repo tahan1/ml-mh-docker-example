@@ -1,0 +1,544 @@
+2020-04-17 00:10:07.567 Notice: JS-JAVASCRIPT: "risque": result.risque.libelle, -- Error running JavaScript request: TypeError: Cannot read property 'libelle' of undefined
+2020-04-17 00:10:07.567 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 15:31, in getById() [javascript]
+2020-04-17 00:10:07.567 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:10:07.567 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:10:07.567 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:10:07.567 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:10:07.567 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:10:07.567 Notice:+in extut:call-service("offreGenerique", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:10:07.567 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:10:07.567 Notice:+  $method = "GET"
+2020-04-17 00:10:07.567 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:10:07.567 Notice:+  $context = map:map()
+2020-04-17 00:10:07.567 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:10:07.567 Notice:+  $input = ()
+2020-04-17 00:10:07.567 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:10:07.567 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:10:07.567 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:10:07.567 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:10:07.567 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:10:07.567 Notice:+in extut:invoke-service("offreGenerique", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:10:07.567 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:10:07.567 Notice:+  $method = "GET"
+2020-04-17 00:10:07.567 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:10:07.567 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:10:07.567 Notice:+  $context = map:map()
+2020-04-17 00:10:07.567 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:10:07.567 Notice:+  $input = ()
+2020-04-17 00:10:07.567 Notice:+  $in-txn = fn:false()
+2020-04-17 00:10:07.567 Notice:+  $txn-curr = "query"
+2020-04-17 00:10:07.567 Notice:+  $txn-mode = "query"
+2020-04-17 00:10:07.567 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:10:07.567 Notice:+in rsrcmodqry:resource-get("offreGenerique", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:10:07.567 Notice:+  $resource-name = "offreGenerique"
+2020-04-17 00:10:07.567 Notice:+  $context = map:map()
+2020-04-17 00:10:07.567 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:10:07.567 Notice:+  $in-txn = fn:false()
+2020-04-17 00:10:07.567 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:10:07.567 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:10:07.567 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:10:07.567 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:10:07.567 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:10:07.567 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:10:07.567 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:10:07.567 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:10:08.289 Info: Status 500: JS-JAVASCRIPT: "risque": result.risque.libelle, -- Error running JavaScript request: TypeError: Cannot read property 'libelle' of undefined
+2020-04-17 00:12:19.518 Notice: JS-JAVASCRIPT: "risque": result.risque.libelle, -- Error running JavaScript request: TypeError: Cannot read property 'libelle' of undefined
+2020-04-17 00:12:19.518 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 19:31, in getById() [javascript]
+2020-04-17 00:12:19.518 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:12:19.518 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:12:19.518 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:12:19.518 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:12:19.518 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:12:19.518 Notice:+in extut:call-service("offreGenerique", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:12:19.518 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:12:19.518 Notice:+  $method = "GET"
+2020-04-17 00:12:19.518 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:12:19.518 Notice:+  $context = map:map()
+2020-04-17 00:12:19.518 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:12:19.518 Notice:+  $input = ()
+2020-04-17 00:12:19.518 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:12:19.518 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:12:19.518 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:12:19.518 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:12:19.518 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:12:19.518 Notice:+in extut:invoke-service("offreGenerique", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:12:19.518 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:12:19.518 Notice:+  $method = "GET"
+2020-04-17 00:12:19.518 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:12:19.518 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:12:19.518 Notice:+  $context = map:map()
+2020-04-17 00:12:19.518 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:12:19.518 Notice:+  $input = ()
+2020-04-17 00:12:19.518 Notice:+  $in-txn = fn:false()
+2020-04-17 00:12:19.518 Notice:+  $txn-curr = "query"
+2020-04-17 00:12:19.518 Notice:+  $txn-mode = "query"
+2020-04-17 00:12:19.518 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:12:19.518 Notice:+in rsrcmodqry:resource-get("offreGenerique", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:12:19.518 Notice:+  $resource-name = "offreGenerique"
+2020-04-17 00:12:19.518 Notice:+  $context = map:map()
+2020-04-17 00:12:19.518 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:12:19.518 Notice:+  $in-txn = fn:false()
+2020-04-17 00:12:19.518 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:12:19.518 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:12:19.518 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:12:19.518 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:12:19.518 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:12:19.518 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:12:19.518 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:12:19.518 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:12:19.975 Info: Status 500: JS-JAVASCRIPT: "risque": result.risque.libelle, -- Error running JavaScript request: TypeError: Cannot read property 'libelle' of undefined
+2020-04-17 00:13:04.802 Notice: JS-JAVASCRIPT: errHandler.returnErrToClient(404, 'Not Found', 'offre generique non trouvee pour id ' + xdmp.toJSONString(result)); -- Error running JavaScript request: TypeError: xdmp.toJSONString is not a function
+2020-04-17 00:13:04.802 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 12:97, in getById() [javascript]
+2020-04-17 00:13:04.802 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:13:04.802 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:13:04.802 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:13:04.802 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:13:04.802 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:13:04.802 Notice:+in extut:call-service("offreGenerique", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:13:04.802 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:13:04.802 Notice:+  $method = "GET"
+2020-04-17 00:13:04.802 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:13:04.802 Notice:+  $context = map:map()
+2020-04-17 00:13:04.802 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:13:04.802 Notice:+  $input = ()
+2020-04-17 00:13:04.802 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:13:04.802 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:13:04.802 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:13:04.802 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:13:04.802 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:13:04.802 Notice:+in extut:invoke-service("offreGenerique", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:13:04.802 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:13:04.802 Notice:+  $method = "GET"
+2020-04-17 00:13:04.802 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:13:04.802 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:13:04.802 Notice:+  $context = map:map()
+2020-04-17 00:13:04.802 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:13:04.802 Notice:+  $input = ()
+2020-04-17 00:13:04.802 Notice:+  $in-txn = fn:false()
+2020-04-17 00:13:04.802 Notice:+  $txn-curr = "query"
+2020-04-17 00:13:04.802 Notice:+  $txn-mode = "query"
+2020-04-17 00:13:04.802 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:13:04.802 Notice:+in rsrcmodqry:resource-get("offreGenerique", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:13:04.802 Notice:+  $resource-name = "offreGenerique"
+2020-04-17 00:13:04.802 Notice:+  $context = map:map()
+2020-04-17 00:13:04.802 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:13:04.802 Notice:+  $in-txn = fn:false()
+2020-04-17 00:13:04.802 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:13:04.802 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:13:04.802 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:13:04.802 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:13:04.802 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:13:04.802 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:13:04.802 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:13:04.802 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:13:05.271 Info: Status 500: JS-JAVASCRIPT: errHandler.returnErrToClient(404, 'Not Found', 'offre generique non trouvee pour id ' + xdmp.toJSONString(result)); -- Error running JavaScript request: TypeError: xdmp.toJSONString is not a function
+2020-04-17 00:13:59.698 Notice: JS-JAVASCRIPT: errHandler.returnErrToClient(404, 'Not Found', 'offre generique non trouvee pour id ' + xdmp.toJsonString(result)); -- Error running JavaScript request: TypeError: errHandler.returnErrToClient is not a function
+2020-04-17 00:13:59.698 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 12:15, in getById() [javascript]
+2020-04-17 00:13:59.698 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:13:59.698 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:13:59.698 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:13:59.698 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:13:59.698 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:13:59.698 Notice:+in extut:call-service("offreGenerique", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:13:59.698 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:13:59.698 Notice:+  $method = "GET"
+2020-04-17 00:13:59.698 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:13:59.698 Notice:+  $context = map:map()
+2020-04-17 00:13:59.698 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:13:59.698 Notice:+  $input = ()
+2020-04-17 00:13:59.698 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:13:59.698 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:13:59.698 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:13:59.698 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:13:59.698 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:13:59.698 Notice:+in extut:invoke-service("offreGenerique", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:13:59.698 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:13:59.698 Notice:+  $method = "GET"
+2020-04-17 00:13:59.698 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:13:59.698 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:13:59.698 Notice:+  $context = map:map()
+2020-04-17 00:13:59.698 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:13:59.698 Notice:+  $input = ()
+2020-04-17 00:13:59.698 Notice:+  $in-txn = fn:false()
+2020-04-17 00:13:59.698 Notice:+  $txn-curr = "query"
+2020-04-17 00:13:59.698 Notice:+  $txn-mode = "query"
+2020-04-17 00:13:59.698 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:13:59.698 Notice:+in rsrcmodqry:resource-get("offreGenerique", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:13:59.698 Notice:+  $resource-name = "offreGenerique"
+2020-04-17 00:13:59.698 Notice:+  $context = map:map()
+2020-04-17 00:13:59.698 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:13:59.698 Notice:+  $in-txn = fn:false()
+2020-04-17 00:13:59.698 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:13:59.698 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:13:59.698 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:13:59.698 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:13:59.698 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:13:59.698 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:13:59.698 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:13:59.698 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:14:00.147 Info: Status 500: JS-JAVASCRIPT: errHandler.returnErrToClient(404, 'Not Found', 'offre generique non trouvee pour id ' + xdmp.toJsonString(result)); -- Error running JavaScript request: TypeError: errHandler.returnErrToClient is not a function
+2020-04-17 00:15:46.335 Notice: JS-JAVASCRIPT: errHandler.returnErrToClient(404, 'Not Found', 'offre generique non trouvee pour id ' + xdmp.toJsonString(result)); -- Error running JavaScript request: ReferenceError: errHandler is not defined
+2020-04-17 00:15:46.335 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 11:4, in getById() [javascript]
+2020-04-17 00:15:46.335 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:15:46.335 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:15:46.335 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:15:46.335 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:15:46.335 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:15:46.335 Notice:+in extut:call-service("offreGenerique", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:15:46.335 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:15:46.335 Notice:+  $method = "GET"
+2020-04-17 00:15:46.335 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:15:46.335 Notice:+  $context = map:map()
+2020-04-17 00:15:46.335 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:15:46.335 Notice:+  $input = ()
+2020-04-17 00:15:46.335 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:15:46.335 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:15:46.335 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:15:46.335 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:15:46.335 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:15:46.335 Notice:+in extut:invoke-service("offreGenerique", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:15:46.335 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:15:46.335 Notice:+  $method = "GET"
+2020-04-17 00:15:46.335 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:15:46.335 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:15:46.335 Notice:+  $context = map:map()
+2020-04-17 00:15:46.335 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:15:46.335 Notice:+  $input = ()
+2020-04-17 00:15:46.335 Notice:+  $in-txn = fn:false()
+2020-04-17 00:15:46.335 Notice:+  $txn-curr = "query"
+2020-04-17 00:15:46.335 Notice:+  $txn-mode = "query"
+2020-04-17 00:15:46.335 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:15:46.335 Notice:+in rsrcmodqry:resource-get("offreGenerique", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:15:46.335 Notice:+  $resource-name = "offreGenerique"
+2020-04-17 00:15:46.335 Notice:+  $context = map:map()
+2020-04-17 00:15:46.335 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:15:46.335 Notice:+  $in-txn = fn:false()
+2020-04-17 00:15:46.335 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:15:46.335 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:15:46.335 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:15:46.335 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:15:46.335 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:15:46.335 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:15:46.335 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:15:46.335 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:15:46.791 Info: Status 500: JS-JAVASCRIPT: errHandler.returnErrToClient(404, 'Not Found', 'offre generique non trouvee pour id ' + xdmp.toJsonString(result)); -- Error running JavaScript request: ReferenceError: errHandler is not defined
+2020-04-17 00:16:11.957 Notice: RESTAPI-SRVEXERR: fn.error(null, 'RESTAPI-SRVEXERR', -- Extension Error:  code: 404 message: Not Found document: offre generique non trouvee pour id []
+2020-04-17 00:16:11.957 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 28:7, in returnErrToClient() [javascript]
+2020-04-17 00:16:11.957 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 11:4, in getById() [javascript]
+2020-04-17 00:16:11.957 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:16:11.957 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:16:11.957 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:16:11.957 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:16:11.957 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:16:11.957 Notice:+in extut:call-service("offreGenerique", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:16:11.957 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:16:11.957 Notice:+  $method = "GET"
+2020-04-17 00:16:11.957 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:16:11.957 Notice:+  $context = map:map()
+2020-04-17 00:16:11.957 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:16:11.957 Notice:+  $input = ()
+2020-04-17 00:16:11.957 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:16:11.957 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:16:11.957 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:16:11.957 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:16:11.957 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:16:11.957 Notice:+in extut:invoke-service("offreGenerique", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:16:11.957 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:16:11.957 Notice:+  $method = "GET"
+2020-04-17 00:16:11.957 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:16:11.957 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:16:11.957 Notice:+  $context = map:map()
+2020-04-17 00:16:11.957 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:16:11.957 Notice:+  $input = ()
+2020-04-17 00:16:11.957 Notice:+  $in-txn = fn:false()
+2020-04-17 00:16:11.957 Notice:+  $txn-curr = "query"
+2020-04-17 00:16:11.957 Notice:+  $txn-mode = "query"
+2020-04-17 00:16:11.957 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:16:11.957 Notice:+in rsrcmodqry:resource-get("offreGenerique", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:16:11.957 Notice:+  $resource-name = "offreGenerique"
+2020-04-17 00:16:11.957 Notice:+  $context = map:map()
+2020-04-17 00:16:11.957 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:16:11.957 Notice:+  $in-txn = fn:false()
+2020-04-17 00:16:11.957 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:16:11.957 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:16:11.957 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:16:11.957 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:16:11.957 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:16:11.957 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:16:11.957 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:16:11.957 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:16:12.423 Info: Status 500: RESTAPI-SRVEXERR: fn.error(null, 'RESTAPI-SRVEXERR', -- Extension Error:  code: 404 message: Not Found document: offre generique non trouvee pour id []
+2020-04-17 00:19:37.569 Notice: RESTAPI-SRVEXERR: fn.error(null, 'RESTAPI-SRVEXERR', -- Extension Error:  code: 404 message: Not Found document: offre generique non trouvee pour id offre A
+2020-04-17 00:19:37.569 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 28:7, in returnErrToClient() [javascript]
+2020-04-17 00:19:37.569 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 11:8, in getById() [javascript]
+2020-04-17 00:19:37.569 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:19:37.569 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:19:37.569 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:19:37.569 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:19:37.569 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:19:37.569 Notice:+in extut:call-service("offreGenerique", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:19:37.569 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:19:37.569 Notice:+  $method = "GET"
+2020-04-17 00:19:37.569 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:19:37.569 Notice:+  $context = map:map()
+2020-04-17 00:19:37.569 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:19:37.569 Notice:+  $input = ()
+2020-04-17 00:19:37.569 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:19:37.569 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:19:37.569 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:19:37.569 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:19:37.569 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:19:37.569 Notice:+in extut:invoke-service("offreGenerique", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:19:37.569 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:19:37.569 Notice:+  $method = "GET"
+2020-04-17 00:19:37.569 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:19:37.569 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:19:37.569 Notice:+  $context = map:map()
+2020-04-17 00:19:37.569 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:19:37.569 Notice:+  $input = ()
+2020-04-17 00:19:37.569 Notice:+  $in-txn = fn:false()
+2020-04-17 00:19:37.569 Notice:+  $txn-curr = "query"
+2020-04-17 00:19:37.569 Notice:+  $txn-mode = "query"
+2020-04-17 00:19:37.569 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:19:37.569 Notice:+in rsrcmodqry:resource-get("offreGenerique", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:19:37.569 Notice:+  $resource-name = "offreGenerique"
+2020-04-17 00:19:37.569 Notice:+  $context = map:map()
+2020-04-17 00:19:37.569 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:19:37.569 Notice:+  $in-txn = fn:false()
+2020-04-17 00:19:37.569 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:19:37.569 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:19:37.569 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:19:37.569 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:19:37.569 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:19:37.569 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:19:37.569 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:19:37.569 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:19:38.026 Info: Status 500: RESTAPI-SRVEXERR: fn.error(null, 'RESTAPI-SRVEXERR', -- Extension Error:  code: 404 message: Not Found document: offre generique non trouvee pour id offre A
+2020-04-17 00:19:43.975 Notice: RESTAPI-SRVEXERR: fn.error(null, 'RESTAPI-SRVEXERR', -- Extension Error:  code: 404 message: Not Found document: offre generique non trouvee pour id Offre A
+2020-04-17 00:19:43.975 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 28:7, in returnErrToClient() [javascript]
+2020-04-17 00:19:43.975 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 11:8, in getById() [javascript]
+2020-04-17 00:19:43.975 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:19:43.975 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:19:43.975 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:19:43.975 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:19:43.975 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:19:43.975 Notice:+in extut:call-service("offreGenerique", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:19:43.975 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:19:43.975 Notice:+  $method = "GET"
+2020-04-17 00:19:43.975 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:19:43.975 Notice:+  $context = map:map()
+2020-04-17 00:19:43.975 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:19:43.975 Notice:+  $input = ()
+2020-04-17 00:19:43.975 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:19:43.975 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:19:43.975 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:19:43.975 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:19:43.975 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:19:43.975 Notice:+in extut:invoke-service("offreGenerique", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:19:43.975 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:19:43.975 Notice:+  $method = "GET"
+2020-04-17 00:19:43.975 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:19:43.975 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:19:43.975 Notice:+  $context = map:map()
+2020-04-17 00:19:43.975 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:19:43.975 Notice:+  $input = ()
+2020-04-17 00:19:43.975 Notice:+  $in-txn = fn:false()
+2020-04-17 00:19:43.975 Notice:+  $txn-curr = "query"
+2020-04-17 00:19:43.975 Notice:+  $txn-mode = "query"
+2020-04-17 00:19:43.975 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:19:43.975 Notice:+in rsrcmodqry:resource-get("offreGenerique", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:19:43.975 Notice:+  $resource-name = "offreGenerique"
+2020-04-17 00:19:43.975 Notice:+  $context = map:map()
+2020-04-17 00:19:43.975 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:19:43.975 Notice:+  $in-txn = fn:false()
+2020-04-17 00:19:43.975 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:19:43.975 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:19:43.975 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:19:43.975 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:19:43.975 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:19:43.975 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:19:43.975 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:19:43.975 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:19:43.977 Info: Status 500: RESTAPI-SRVEXERR: fn.error(null, 'RESTAPI-SRVEXERR', -- Extension Error:  code: 404 message: Not Found document: offre generique non trouvee pour id Offre A
+2020-04-17 00:20:17.390 Notice: RESTAPI-SRVEXERR: fn.error(null, 'RESTAPI-SRVEXERR', -- Extension Error:  code: 404 message: Not Found document: offre generique non trouvee pour id Offre A
+2020-04-17 00:20:17.390 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 28:7, in returnErrToClient() [javascript]
+2020-04-17 00:20:17.390 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 11:8, in getById() [javascript]
+2020-04-17 00:20:17.390 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:20:17.390 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:20:17.390 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:20:17.390 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:20:17.390 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:20:17.390 Notice:+in extut:call-service("offreGenerique", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:20:17.390 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:20:17.390 Notice:+  $method = "GET"
+2020-04-17 00:20:17.390 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:20:17.390 Notice:+  $context = map:map()
+2020-04-17 00:20:17.390 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:20:17.390 Notice:+  $input = ()
+2020-04-17 00:20:17.390 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:20:17.390 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:20:17.390 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:20:17.390 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:20:17.390 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:20:17.390 Notice:+in extut:invoke-service("offreGenerique", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:20:17.390 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:20:17.390 Notice:+  $method = "GET"
+2020-04-17 00:20:17.390 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:20:17.390 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:20:17.390 Notice:+  $context = map:map()
+2020-04-17 00:20:17.390 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:20:17.390 Notice:+  $input = ()
+2020-04-17 00:20:17.390 Notice:+  $in-txn = fn:false()
+2020-04-17 00:20:17.390 Notice:+  $txn-curr = "query"
+2020-04-17 00:20:17.390 Notice:+  $txn-mode = "query"
+2020-04-17 00:20:17.390 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:20:17.390 Notice:+in rsrcmodqry:resource-get("offreGenerique", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:20:17.390 Notice:+  $resource-name = "offreGenerique"
+2020-04-17 00:20:17.390 Notice:+  $context = map:map()
+2020-04-17 00:20:17.390 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:20:17.390 Notice:+  $in-txn = fn:false()
+2020-04-17 00:20:17.390 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:20:17.390 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:20:17.390 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:20:17.390 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:20:17.390 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:20:17.390 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:20:17.390 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:20:17.390 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:20:17.846 Info: Status 500: RESTAPI-SRVEXERR: fn.error(null, 'RESTAPI-SRVEXERR', -- Extension Error:  code: 404 message: Not Found document: offre generique non trouvee pour id Offre A
+2020-04-17 00:24:56.499 Notice: JS-JAVASCRIPT: "risque": result.risque.libelle, -- Error running JavaScript request: TypeError: Cannot read property 'libelle' of undefined
+2020-04-17 00:24:56.499 Notice:+in /marklogic.rest.resource/offreGenerique/assets/resource.sjs, at 18:31, in getById() [javascript]
+2020-04-17 00:24:56.499 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:24:56.499 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:24:56.499 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:24:56.499 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:24:56.499 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:24:56.499 Notice:+in extut:call-service("offreGenerique", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:24:56.499 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:24:56.499 Notice:+  $method = "GET"
+2020-04-17 00:24:56.499 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:24:56.499 Notice:+  $context = map:map()
+2020-04-17 00:24:56.499 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:24:56.499 Notice:+  $input = ()
+2020-04-17 00:24:56.499 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:24:56.499 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:24:56.499 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:24:56.499 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:24:56.499 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:24:56.499 Notice:+in extut:invoke-service("offreGenerique", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:24:56.499 Notice:+  $extension-name = "offreGenerique"
+2020-04-17 00:24:56.499 Notice:+  $method = "GET"
+2020-04-17 00:24:56.499 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:24:56.499 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:24:56.499 Notice:+  $context = map:map()
+2020-04-17 00:24:56.499 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:24:56.499 Notice:+  $input = ()
+2020-04-17 00:24:56.499 Notice:+  $in-txn = fn:false()
+2020-04-17 00:24:56.499 Notice:+  $txn-curr = "query"
+2020-04-17 00:24:56.499 Notice:+  $txn-mode = "query"
+2020-04-17 00:24:56.499 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:24:56.499 Notice:+in rsrcmodqry:resource-get("offreGenerique", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:24:56.499 Notice:+  $resource-name = "offreGenerique"
+2020-04-17 00:24:56.499 Notice:+  $context = map:map()
+2020-04-17 00:24:56.499 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:24:56.499 Notice:+  $in-txn = fn:false()
+2020-04-17 00:24:56.499 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:24:56.499 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreGenerique","get"), "/marklogic.rest.resource/offreGenerique/assets/resource.xqy")
+2020-04-17 00:24:56.499 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:24:56.499 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:24:56.499 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:24:56.499 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:24:56.499 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:24:56.499 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:24:56.953 Info: Status 500: JS-JAVASCRIPT: "risque": result.risque.libelle, -- Error running JavaScript request: TypeError: Cannot read property 'libelle' of undefined
+2020-04-17 00:32:04.959 Notice: JS-JAVASCRIPT: "offreGeneriqueDeRattachement": result.rattacheA.id -- Error running JavaScript request: TypeError: Cannot read property 'id' of undefined
+2020-04-17 00:32:04.959 Notice:+in /marklogic.rest.resource/offreCommerciale/assets/resource.sjs, at 26:56, in getById() [javascript]
+2020-04-17 00:32:04.959 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:32:04.959 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:32:04.959 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:32:04.959 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:32:04.959 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:32:04.959 Notice:+in extut:call-service("offreCommerciale", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:32:04.959 Notice:+  $extension-name = "offreCommerciale"
+2020-04-17 00:32:04.959 Notice:+  $method = "GET"
+2020-04-17 00:32:04.959 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy")
+2020-04-17 00:32:04.959 Notice:+  $context = map:map()
+2020-04-17 00:32:04.959 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:32:04.959 Notice:+  $input = ()
+2020-04-17 00:32:04.959 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:32:04.959 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:32:04.959 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:32:04.959 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:32:04.959 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:32:04.959 Notice:+in extut:invoke-service("offreCommerciale", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:32:04.959 Notice:+  $extension-name = "offreCommerciale"
+2020-04-17 00:32:04.959 Notice:+  $method = "GET"
+2020-04-17 00:32:04.959 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:32:04.959 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy")
+2020-04-17 00:32:04.959 Notice:+  $context = map:map()
+2020-04-17 00:32:04.959 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:32:04.959 Notice:+  $input = ()
+2020-04-17 00:32:04.959 Notice:+  $in-txn = fn:false()
+2020-04-17 00:32:04.959 Notice:+  $txn-curr = "query"
+2020-04-17 00:32:04.959 Notice:+  $txn-mode = "query"
+2020-04-17 00:32:04.959 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:32:04.959 Notice:+in rsrcmodqry:resource-get("offreCommerciale", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:32:04.959 Notice:+  $resource-name = "offreCommerciale"
+2020-04-17 00:32:04.959 Notice:+  $context = map:map()
+2020-04-17 00:32:04.959 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:32:04.959 Notice:+  $in-txn = fn:false()
+2020-04-17 00:32:04.959 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:32:04.959 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/offreCommerciale","get"), "/marklogic.rest.resource/offreCommerciale/assets/resource.xqy")
+2020-04-17 00:32:04.959 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:32:04.959 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:32:04.959 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:32:04.959 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:32:04.959 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:32:04.959 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:32:05.425 Info: Status 500: JS-JAVASCRIPT: "offreGeneriqueDeRattachement": result.rattacheA.id -- Error running JavaScript request: TypeError: Cannot read property 'id' of undefined
+2020-04-17 00:42:44.962 Notice: JS-JAVASCRIPT: if (!idOffre) { -- Error running JavaScript request: ReferenceError: idOffre is not defined
+2020-04-17 00:42:44.962 Notice:+in /marklogic.rest.resource/produitGestion/assets/resource.sjs, at 10:9, in getById() [javascript]
+2020-04-17 00:42:44.962 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 93:29, in callExtension() [javascript]
+2020-04-17 00:42:44.962 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 111:9, in applyOnce() [javascript]
+2020-04-17 00:42:44.962 Notice:+in /MarkLogic/rest-api/lib/extensions-util.sjs, at 944:44,
+2020-04-17 00:42:44.962 Notice:+in xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy")(map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)) [javascript]
+2020-04-17 00:42:44.962 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 944:44,
+2020-04-17 00:42:44.962 Notice:+in extut:call-service("produitGestion", "GET", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), ()) [1.0-ml]
+2020-04-17 00:42:44.962 Notice:+  $extension-name = "produitGestion"
+2020-04-17 00:42:44.962 Notice:+  $method = "GET"
+2020-04-17 00:42:44.962 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy")
+2020-04-17 00:42:44.962 Notice:+  $context = map:map()
+2020-04-17 00:42:44.962 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:42:44.962 Notice:+  $input = ()
+2020-04-17 00:42:44.962 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 898:20,
+2020-04-17 00:42:44.962 Notice:+in function() as item()*() [1.0-ml]
+2020-04-17 00:42:44.962 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy,
+2020-04-17 00:42:44.962 Notice:+in xdmp:invoke(function() as item()*, <options xmlns="xdmp:eval"><isolation>same-statement</isolation><ignore-amps>...</ignore-amps></options>) [1.0-ml]
+2020-04-17 00:42:44.962 Notice:+in /MarkLogic/rest-api/lib/extensions-util.xqy, at 896:12,
+2020-04-17 00:42:44.962 Notice:+in extut:invoke-service("produitGestion", "GET", "query", xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy"), map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), (), fn:false()) [1.0-ml]
+2020-04-17 00:42:44.962 Notice:+  $extension-name = "produitGestion"
+2020-04-17 00:42:44.962 Notice:+  $method = "GET"
+2020-04-17 00:42:44.962 Notice:+  $default-txn-mode = "query"
+2020-04-17 00:42:44.962 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy")
+2020-04-17 00:42:44.962 Notice:+  $context = map:map()
+2020-04-17 00:42:44.962 Notice:+  $service-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:42:44.962 Notice:+  $input = ()
+2020-04-17 00:42:44.962 Notice:+  $in-txn = fn:false()
+2020-04-17 00:42:44.962 Notice:+  $txn-curr = "query"
+2020-04-17 00:42:44.962 Notice:+  $txn-mode = "query"
+2020-04-17 00:42:44.962 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 206:20,
+2020-04-17 00:42:44.962 Notice:+in rsrcmodqry:resource-get("produitGestion", map:map(), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), fn:false(), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:42:44.962 Notice:+  $resource-name = "produitGestion"
+2020-04-17 00:42:44.962 Notice:+  $context = map:map()
+2020-04-17 00:42:44.962 Notice:+  $resource-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:42:44.962 Notice:+  $in-txn = fn:false()
+2020-04-17 00:42:44.962 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:42:44.962 Notice:+  $service = xdmp:function(fn:QName("http://marklogic.com/rest-api/resource/produitGestion","get"), "/marklogic.rest.resource/produitGestion/assets/resource.xqy")
+2020-04-17 00:42:44.962 Notice:+in /MarkLogic/rest-api/models/resource-model-query.xqy, at 175:4,
+2020-04-17 00:42:44.962 Notice:+in rsrcmodqry:exec-get(map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>), local:rsrcmod-callback#6) [1.0-ml]
+2020-04-17 00:42:44.962 Notice:+  $headers = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:42:44.962 Notice:+  $endpoint-params = map:map(<map:map xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" .../>)
+2020-04-17 00:42:44.962 Notice:+  $responder = local:rsrcmod-callback#6
+2020-04-17 00:42:44.962 Notice:+in /MarkLogic/rest-api/endpoints/resource-service-query.xqy, at 74:8 [1.0-ml]
+2020-04-17 00:42:45.385 Info: Status 500: JS-JAVASCRIPT: if (!idOffre) { -- Error running JavaScript request: ReferenceError: idOffre is not defined

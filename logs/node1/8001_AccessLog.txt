@@ -1,0 +1,4 @@
+172.89.0.1 - - [17/Jun/2020:04:58:44 +0000] "GET /admin/v1/timestamp HTTP/1.1" 401 104 - "Apache-HttpClient/4.3.6 (java 1.5)"
+172.89.0.1 - admin [17/Jun/2020:04:58:44 +0000] "GET /admin/v1/timestamp HTTP/1.1" 503 256 - "Apache-HttpClient/4.3.6 (java 1.5)"
+172.89.0.1 - - [17/Jun/2020:04:58:48 +0000] "GET /admin/v1/timestamp HTTP/1.1" 401 104 - "Apache-HttpClient/4.3.6 (java 1.5)"
+172.89.0.1 - admin [17/Jun/2020:04:58:50 +0000] "GET /admin/v1/timestamp HTTP/1.1" 200 27 - "Apache-HttpClient/4.3.6 (java 1.5)"
